@@ -52,7 +52,7 @@ form {
 }
 
   .MapImage {
-   margin-left: 2%;
+    margin-left: 2%;
     width: 30px;
     height: 50px;
     border-top-left-radius: 75px;
@@ -89,4 +89,35 @@ form {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+  }
+  .FilterText{
+    margin-left: 2%;
+    font-size: small;
+  }
+
+  #FilterImages {
+   padding-left: 2%;
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+
+#FilterImages img {
+    padding: 12px 1px;
+    width: 3%;
+    
+}
+
+input[name =username], select {
+   
+    width: 16%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
   }
