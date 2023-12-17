@@ -106,7 +106,7 @@ form {
   
 }
 
-input[name=search], select {
+input[name=username], select {
     width: 16%;
     height: 50px;
     padding: 12px 20px;
