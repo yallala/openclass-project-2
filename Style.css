@@ -1,4 +1,92 @@
-body 
-{
-background-color: rgb(255, 0, 208);
+*{
+    
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 120px;
+    height: 90px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 15px;
+    
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #0844de;
+    font-weight: 400;
+    margin: 10px 15px;
+    
+}
+.content-1{
+    color: rgb(9, 9, 9);
+    font-size:small;
+    font-weight: 50;
+    margin-left: 2%;
+}
+
+.content-2{
+    color: rgb(9, 9, 9);
+    font-size:small;
+    font-weight: 300;
+    margin-left: 2%;
+}
+/* form code reference https://pagedart.com/blog/how-to-add-a-search-bar-in-html/#html-form */
+
+form {
+  
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+  .MapImage {
+   margin-left: 2%;
+    width: 30px;
+    height: 50px;
+    border-top-left-radius: 75px;
+    border-bottom-left-radius: 75px;
+
+  }
+  
+/* button code learned from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_round_buttons */
+ /* search button curve is learned from https://stackoverflow.com/questions/52194355/css-buttons-rounded-on-one-side */
+  button {
+
+
+    width: 100px;
+    height: 50px;
+    background-color: #6584f4;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-left: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  
+  input[type=search], select {
+    width: 16%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
