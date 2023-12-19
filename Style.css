@@ -1,6 +1,5 @@
 *{
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-       
 }
 
 nav{
@@ -130,14 +129,12 @@ input[name=username], select {
     background-color:rgba(244, 230, 230, 0.584); */
     grid-template-areas: 
     "photoOne photoTwo photoThree"
-    "photoFour photoFive photoSix";
+    "photoOne photoFive photoSix";
     grid-template-columns: 33.3% 33.3% 33.3%;
     max-width: 60%;
     padding: 1%;
-    border-radius: 5%
-    
-    ;
-    
+    border-radius: 5%;
+
          }
 #PhotoArray > div {
     border: 2px solid #eb7a7a;
@@ -147,7 +144,7 @@ input[name=username], select {
     background-color: white;
         }
    
-#PhotoArry > 
+/* #PhotoArray > 
     div:first-child
         {
         grid-area: photoOne;
@@ -155,7 +152,7 @@ input[name=username], select {
         }
     div:second-child
         {
-        grid-area: photoTwo;
+        grid-area: photoOne;
         }
     div:third-child
         {
@@ -172,7 +169,7 @@ input[name=username], select {
     div:sixth-child
         {
         grid-area: photoSix;
-        }   
+        }    */
 
 .Grid-1image-1{
         margin-left: 2%;
@@ -247,7 +244,7 @@ input[name=username], select {
     /* grid-template-rows: 33.3% 33.3% 33.3%; */
     max-width: 30%;
     border-radius: 5%;
-
+   
          }
         
 #PhotoArray2 > div {
@@ -319,3 +316,118 @@ input[name=username], select {
         float:right;
         margin-right: 2%;
        }
+
+
+  /* Grid -3 / bottom frame code from https://www.youtube.com/watch?v=TuBwe6SLRlU  */
+
+ 
+#LastImageSection{
+    display: grid;
+    margin-left: 3%;
+    background-color:rgba(215, 67, 67, 0.584); */
+    grid-template-areas: 
+    "photoOne photoTwo photoThree photoFour"
+    "photoFour photoFive photoSix photoSeven";
+    grid-template-columns: 25% 25% 25% 25%; 
+    width: 95%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color:white;
+    padding-top: 3%;
+         }
+#LastImageSection > div {
+    padding-top: 4%;
+    border: 1px solid #f3ecec;
+    height: 300px;
+    border-radius: 20px;
+    background-color: white;
+        }
+.bottomimage-1{
+    margin-left: 2%;
+    padding-top: 2%;
+    width: 85%;
+    height: 80%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;  
+        }
+        
+.bottomimage-2{
+    margin-left: 2%;
+    padding-top: 2%;
+    width: 96%;
+    height: 75%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;  
+        }
+
+.bottomimage-3{
+    margin-left: 2%;
+    padding-top: 2%;
+    width: 96%;
+    height: 75%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;  
+        }
+
+.bottomimage-4{
+    margin-left: 2%;
+    padding-top: 2%;
+    width: 96%;
+    height: 75%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;  
+        }
+
+.bottomimage-5{
+    margin-left: 2%;
+    padding-top: 2%;
+    width: 96%;
+    height: 75%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;  
+        }
+
+.bottomimage-6{
+    margin-left: 2%;
+    padding-top: 2%;
+    width: 96%;
+    height: 75%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;  
+        }
+.bottomimage-7{
+    margin-left: 2%;
+    padding-top: 2%;
+    width: 96%;
+    height: 75%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;  
+        }
+.bottomimage-8{
+    margin-left: 2%;
+    padding-top: 2%;
+    width: 96%;
+    height: 75%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;  
+        }
+
+        
