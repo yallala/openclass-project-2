@@ -124,7 +124,7 @@ input[name=username], select {
   }
   /* Grid -1 code learned fromhttps://www.youtube.com/watch?v=Pip8s2BpelM  */
 
-#PhotoArray{
+#FirstGridSection{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     max-width: 60%;
@@ -133,7 +133,7 @@ input[name=username], select {
     margin-left: 3%;
     background-color:rgba(244, 230, 230, 0.584); */
          }
-#PhotoArray > div {
+#FirstGridSection > div {
     border: 2px solid #eb7a7a;
     height: 360px;
     border-radius: 20px;
@@ -141,19 +141,32 @@ input[name=username], select {
     background-color: white;
         }
    
-#PhotoArray > div>img{
+#FirstGridSection > div>img{
         padding: 5%;
         width: 96%;
         height: 65%;
         border-radius: 20%;
 }
+/* The following section written separately because it requires different font */
+.FirstGridBelowImageFirstRow{
+  font-size:2%; 
+  text-align: left;
+}
 
-           
-/* Grid -2 code learned fromhttps://www.youtube.com/watch?v=Pip8s2BpelM  */
+#FirstGridSection > div > p{
+  font-size: 3;
+  text-align: left;
+  padding: 1%;
 
-#PhotoArray2{
+}
+#FirstGridSection{
+  float:left;
+}
+
+/* Grid -2 code learned from https://www.youtube.com/watch?v=Pip8s2BpelM  */
+
+#SecondGridSection{
     display: grid;
-    
     /* margin-left: 3%; */
     background-color:rgba(244, 230, 230, 0.584); */
     grid-template-rows: 33.3% 33.3% 33.3%;
@@ -161,7 +174,7 @@ input[name=username], select {
     border-radius: 5%;
          }
         
-#PhotoArray2 > div {
+#SecondGridSection > div {
     /* margin-top: 5%;
     margin-left: 5%; */
     margin:4%;
@@ -176,10 +189,7 @@ input[name=username], select {
     border-bottom-right-radius: 15px;
     background-color:white;
         }
-
-
-
-#PhotoArray2 > div> img{
+#SecondGridSection > div> img{
     padding: 5%;
     width: 70%;
     height: 100%;
@@ -187,19 +197,25 @@ input[name=username], select {
     float: left;
 }
 
+#SecondGridSection{
+  float:right;
+  margin-right: 2%;
+  }
 
-
-#PhotoArray{
-            float:left;
-       }
-
-
-      
+  #SecondGridSection > div > p{
+    font-size: 3;
+    text-align: center;
+    padding: 3%;
+}
+/* The following section written separately because it requires different font */
+.SecondGridBelowImageFirstRow{
+  font-size:2%; 
+  text-align: left;
+}
 
   /* Grid -3 / bottom frame code from https://www.youtube.com/watch?v=TuBwe6SLRlU  */
-
  
-#LastImageSection{
+#ThirdGridSection{
     display: grid;
     margin-left: 3%;
     background-color:rgba(215, 67, 67, 0.584); */
@@ -217,7 +233,7 @@ input[name=username], select {
     padding-bottom: 1%;
 
          }
-#LastImageSection > div {
+#ThirdGridSection > div {
     padding-top: 4%;
     border: 1px solid #f3ecec;
     height: 300px;
@@ -310,118 +326,82 @@ input[name=username], select {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;  
         }
+ 
 
-        .Grid-2ImageSecondText1{
-            text-align: right;
-            font-size:medium;
-            float:right;
-        }
-        .Grid-2ImageSecondText2{
-            text-align: right;
-            font-size:medium;
-            float:right;
-        }
-        .Grid-2ImageSecondText3{
-            text-align: right;
-            font-size:medium;
-            float:right;
-        }
 
-        /* Footer section learned from here 
+       /* Footer section learned from here 
     https://devdevout.com/css/css-footers*/
         
-        *, *:before, *:after {
-            box-sizing: border-box;
-          }
-          
-          /* html {
-            font-size: 100%;
-          } */
-          
-          .footer {
-            font-family: acumin-pro, system-ui, sans-serif;
-            margin: 0;
-            display: grid;
-            grid-template-rows: auto 1fr auto;
-            font-size: 14px;
-            background-color: #f4f4f4;
-            align-items: start;
-            /* min-height: 100vh; */
-          }
-          .footer > * {
-            flex:  1 100%;
-          }
-          
-          .nav__title {
-            font-weight: 400;
-            font-size: 15px;
-          }
-          
-          .footer ul {
-            list-style: none;
-            padding-left: 0;
-          }
-          
-          .footer li {
-            line-height: 2em;
-          }
-          
-          .footer a {
-            text-decoration: none;
-          }
-          
-          .footer__nav {
-            display: flex;
-            flex-flow: row wrap;
-            margin-left: 5%;
-          }
-          
-          .footer__nav > * {
-            flex: 1 50%;
-            margin-right: 1.25em;
-          }
-          
-          .nav__ul a {
-            color: #999;
-          }
-          
-          .nav__ul--extra {
-            column-count: 1;
-            column-gap: 1.25em;
-          }
-          
-          @media screen and (min-width: 40.375em) {
-            .footer__nav > * {
-              flex: 1;
-            }
-
-            .footer__addr {
-              flex: 1 0px;
-            }
-            
-            .footer__nav {
-              flex: 2 0px;
-            }
-          }     
-#PhotoArray2{
-    float:right;
-    margin-right: 2%;
+    *, *:before, *:after {
+      box-sizing: border-box;
     }
- .ImageFirstText{
-    font-size:2%; 
-    text-align: left;
-}
+    
+    /* html {
+      font-size: 100%;
+    } */
+    
+    .footer {
+      font-family: acumin-pro, system-ui, sans-serif;
+      margin: 0;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      font-size: 14px;
+      background-color: #f4f4f4;
+      align-items: start;
+      /* min-height: 100vh; */
+    }
+    .footer > * {
+      flex:  1 100%;
+    }
+    
+    .nav__title {
+      font-weight: 400;
+      font-size: 15px;
+    }
+    
+    .footer ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    
+    .footer li {
+      line-height: 2em;
+    }
+    
+    .footer a {
+      text-decoration: none;
+    }
+    
+    .footer__nav {
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 5%;
+    }
+    
+    .footer__nav > * {
+      flex: 1 50%;
+      margin-right: 1.25em;
+    }
+    
+    .nav__ul a {
+      color: #999;
+    }
+    
+    .nav__ul--extra {
+      column-count: 1;
+      column-gap: 1.25em;
+    }
+    
+    @media screen and (min-width: 40.375em) {
+      .footer__nav > * {
+        flex: 1;
+      }
 
-
-
-.Grid-2ImageFirstText{
-    font-size:2%; 
-    text-align: left;
-
-}
-
-#PhotoArray2 > div > p{
-    font-size: 3;
-    text-align: center;
-    padding: 3%;
-}
+      .footer__addr {
+        flex: 1 0px;
+      }
+      
+      .footer__nav {
+        flex: 2 0px;
+      }
+    }   
