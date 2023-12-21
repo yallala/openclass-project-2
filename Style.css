@@ -113,6 +113,7 @@ input[name=username], select {
     margin-left: 1%;
     width: 1.5%;   
   }
+  
   p{
     color: rgb(156, 145, 145);
     font-size:large;
@@ -125,126 +126,39 @@ input[name=username], select {
 
 #PhotoArray{
     display: grid;
-    margin-left: 3%;
-    background-color:rgba(244, 230, 230, 0.584); */
-    grid-template-areas: 
-    "photoOne photoTwo photoThree"
-    "photoOne photoFive photoSix";
     grid-template-columns: 33.3% 33.3% 33.3%;
     max-width: 60%;
-    padding: 1%;
+    padding: 3%;
     border-radius: 5%;
-
+    margin-left: 3%;
+    background-color:rgba(244, 230, 230, 0.584); */
          }
 #PhotoArray > div {
     border: 2px solid #eb7a7a;
-    height: 300px;
+    height: 360px;
     border-radius: 20px;
     border-color: rgb(240, 245, 246);
     background-color: white;
         }
    
-/* #PhotoArray > 
-    div:first-child
-        {
-        grid-area: photoOne;
-        
-        }
-    div:second-child
-        {
-        grid-area: photoOne;
-        }
-    div:third-child
-        {
-        grid-area: photoThree;
-        }
-    div:fourth-child
-        {
-        grid-area: photoFour;
-        }
-    div:fith-child
-        {
-        grid-area: photoFive;
-        }
-    div:sixth-child
-        {
-        grid-area: photoSix;
-        }    */
+#PhotoArray > div>img{
+        padding: 5%;
+        width: 96%;
+        height: 65%;
+        border-radius: 20%;
+}
 
-.Grid-1image-1{
-        margin-left: 2%;
-        padding-top: 2%;
-        width: 96%;
-        height: 75%;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;  
-            }
-.Grid-1image-2{
-        margin-left: 2%;
-        padding-top: 2%;
-        width: 96%;
-        height: 75%;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-            }
-.Grid-1image-3{
-        margin-left: 2%;
-        padding-top: 2%;
-        width: 96%;
-        height: 75%;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-            }
-.Grid-1image-4{
-        margin-left: 2%;
-        padding-top: 2%;
-        width: 96%;
-        height: 75%;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-            }
-.Grid-1image-5{
-        margin-left: 2%;
-        padding-top: 2%;
-        width: 96%;
-        height: 75%;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-            }
-.Grid-1image-6{
-        margin-left: 2%;
-        padding-top: 2%;
-        width: 96%;
-        height: 75%;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-            }
+           
 /* Grid -2 code learned fromhttps://www.youtube.com/watch?v=Pip8s2BpelM  */
 
 #PhotoArray2{
     display: grid;
-    margin-left: 3%;
+    
+    /* margin-left: 3%; */
     background-color:rgba(244, 230, 230, 0.584); */
-    grid-template-areas: 
-    "photoOne"
-    "photoTwo"
-    "photoThree"; 
-    /* grid-template-rows: 33.3% 33.3% 33.3%; */
-    max-width: 30%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    max-width: 33%;
     border-radius: 5%;
-   
          }
         
 #PhotoArray2 > div {
@@ -252,7 +166,7 @@ input[name=username], select {
     margin-left: 5%; */
     margin:4%;
     border: 2px solid #efe5e5;
-    height: 175px;
+    height: 230px;
     max-width: 90%;
     /* border-radius: 10%; */
     /* border-radius: ; */
@@ -263,60 +177,24 @@ input[name=username], select {
     background-color:white;
         }
 
-#PhotoArray2 > 
-    div:first-child
-        {
-        grid-row: photoOne;
-        } 
-    div:second-child
-        {
-        grid-row: photoTwo;
-        }
-    div:third-child
-        {
-        grid-row: photoThree;
-        }
 
-.Grid-2image-1{
-        margin-left: 2%;
-        padding-top: 2%;
-        width: 50%;
-        height: 90%;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;  
-        }
-.Grid-2image-2{
-        margin-left: 2%;
-        padding-top: 2%;
-        width: 50%;
-        height: 90%;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        }
-.Grid-2image-3{
-        margin-left: 2%;
-        padding-top: 2%;
-        width: 50%;
-        height: 90%;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        }
+
+#PhotoArray2 > div> img{
+    padding: 5%;
+    width: 70%;
+    height: 100%;
+    border-radius: 15%;
+    float: left;
+}
+
+
 
 #PhotoArray{
             float:left;
        }
 
-#PhotoArray2{
-        float:right;
-        margin-right: 2%;
-       }
 
+      
 
   /* Grid -3 / bottom frame code from https://www.youtube.com/watch?v=TuBwe6SLRlU  */
 
@@ -433,16 +311,32 @@ input[name=username], select {
     border-bottom-right-radius: 15px;  
         }
 
-    /* Footer section learned from here 
+        .Grid-2ImageSecondText1{
+            text-align: right;
+            font-size:medium;
+            float:right;
+        }
+        .Grid-2ImageSecondText2{
+            text-align: right;
+            font-size:medium;
+            float:right;
+        }
+        .Grid-2ImageSecondText3{
+            text-align: right;
+            font-size:medium;
+            float:right;
+        }
+
+        /* Footer section learned from here 
     https://devdevout.com/css/css-footers*/
         
         *, *:before, *:after {
             box-sizing: border-box;
           }
           
-          html {
+          /* html {
             font-size: 100%;
-          }
+          } */
           
           .footer {
             font-family: acumin-pro, system-ui, sans-serif;
@@ -509,3 +403,25 @@ input[name=username], select {
               flex: 2 0px;
             }
           }     
+#PhotoArray2{
+    float:right;
+    margin-right: 2%;
+    }
+ .ImageFirstText{
+    font-size:2%; 
+    text-align: left;
+}
+
+
+
+.Grid-2ImageFirstText{
+    font-size:2%; 
+    text-align: left;
+
+}
+
+#PhotoArray2 > div > p{
+    font-size: 3;
+    text-align: center;
+    padding: 3%;
+}
