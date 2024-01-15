@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css>" />
+  </head>
 
 
 <body> 
@@ -35,7 +36,8 @@
     </div>
 
       <form id="form" role="search">
-        <img src=".//images/map-image.jpeg"MapImage" class="MapImage">
+        <!-- <img src=".//images/map-image.jpeg"MapImage" class="MapImage"> -->
+        <i class="fa-solid fa-location-dot"></i>
         <input type="search" id="query" name="q"
          placeholder="Marseille, France"
          aria-label="Search through site content">
@@ -126,30 +128,40 @@
         </div>
     </section>
 
-<!-- grid 3 / bottom frame code -->
-    <section id = "ThirdGridSection">
-        <div><img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg "Grid1image1" class="bottomimage-1" alt="Grid1image1"></div>
-        <div><img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg "Grid1image2" class="bottomimage-2" alt="Grid1image2"></div>
+  <!-- grid 3 / bottom frame code -->
+    <!-- <div class="ThirdGridContainer"> -->
+        <!-- <div><img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg "Grid1image1" class="item item1" alt="Grid1image1"></div> -->
+        <!-- <div><img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg "Grid1image2" class="bottomimage-2" alt="Grid1image2"></div>
         <div><img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"Grid1image3" class="bottomimage-3" alt="Grid1image3"></div>
         <div><img src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"Grid1image4" class="bottomimage-4" alt="Grid1image4"></div>
         <div><img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"Grid1image5" class="bottomimage-5" alt="Grid1image5"></div>
         <div><img src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"Grid1image6" class="bottomimage-6" alt="Grid1image6"></div>
         <div><img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"Grid1image5" class="bottomimage-7" alt="Grid1image5"></div>
         <div><img src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"Grid1image6" class="bottomimage-8" alt="Grid1image6"></div>
-    </section> 
+    </div>  -->
 
-
-    <!-- <div class="grid">
-      <div class="item left">
-        <img src="/night_sky.jpg">
-      </div>
-      <div class="item upper_right">
-        <img src="/jupiter.jpg">
-      </div>
-      <div class="item lower_right">
-        <img src="/iss.jpg">
-      </div>
-    </div> -->
+<div class="ThirdGridContainer">
+  <!-- One image -->
+  <div class="ColumnOne">
+    <!-- <div class="item item1">1</div> -->
+    <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="bottomimage-1" alt="bottomimage-1">
+  </div>
+  <!-- two images  -->
+  <div class="ColumnTwo">
+      <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="bottomimage-2" alt="bottomimage-2">
+      <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="bottomimage-3" alt="bottomimage-3">
+  </div>
+  <!-- one image  -->
+  <div class="ColumnThree">
+    <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="bottomimage-4" alt="bottomimage-4">
+   
+  </div>
+   <!-- two images  -->
+   <div class="ColumnFour">
+    <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="bottomimage-5" alt="bottomimage-5">
+    <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="bottomimage-6" alt="bottomimage-6">
+  </div>  
+</div>
 </body>
 
 <!-- Footer section learned from here 
