@@ -221,13 +221,15 @@ input[name=username], select {
     /* background-image:
     linear-gradient(to right, grey 1px, transparent 1px),
     linear-gradient(to bottom, grey 1px, transparent 1px);   */
-    
+    column-gap: 20px;
+    background-color: #999;
   }
   
  
   .ColumnOne,.ColumnTwo,.ColumnThree,.ColumnFour {
     width: 100%;
     display: flex;
+    flex-direction: column;
 
   }
 
@@ -236,7 +238,8 @@ input[name=username], select {
   {
     display:flex;
     flex-direction: column;
-      }
+    row-gap: 20px;
+  }
   
    .bottomimage-1,.bottomimage-2,.bottomimage-3,.bottomimage-4,.bottomimage-5,.bottomimage-6{
     display: flex;
@@ -244,15 +247,16 @@ input[name=username], select {
     border-radius: 10%;
     height: 100%;
   } 
-  
-  
+  .bottomimage-2{
+    height: 70%;
+  }
+  .bottomimage-3{
+    height: 30%;
+  }
     /* Footer section learned from here 
     https://devdevout.com/css/css-footers*/
         
-    *, *:before, *:after {
-      box-sizing: border-box;
-      gap: 20px;
-    }
+    
     
     /* html {
       font-size: 100%;
