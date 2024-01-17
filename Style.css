@@ -122,118 +122,77 @@ input[name=username], select {
     text-wrap:nowrap;
     text-align:left;
   }
-  /* Grid -1 code learned fromhttps://www.youtube.com/watch?v=Pip8s2BpelM  */
+ 
+/* Flex-1 code */
+ .FirstGridContainer{
+  display: flex;
+  padding: 12px 20px;
+  height:100%;
+  width: 70%;
+  align-self: self-start;
 
-#FirstGridSection{
-    display: flex;
-    max-width: 60%;
-    padding: 3%;
-    border-radius: 5%;
-    margin-left: 3%;
-    background-color:rgba(102, 86, 86, 0.089); */
-         }
-#FirstGridSection > div {
-    border: 2px solid #e7dbdb;
-    height: 360px;
-    border-radius: 20px;
-    border-color: rgba(98, 187, 205, 0.51);
-    background-color: white;
-        }
-   
-#FirstGridSection > div>img{
-        padding: 5%;
-        width: 96%;
-        height: 65%;
-        border-radius: 20%;
-}
-.FirstGridBelowImageFirstRow{
-  font-size:2%; 
-  text-align: left;
+  column-gap: 20px;
+
+  float: left;
 }
 
-#FirstGridSection > div > p{
-  font-size: 3;
-  text-align: left;
-  padding: 1%;
-
-}
-#FirstGridSection{
-  float:left;
+.FirstFlexColumnOne,.FirstFlexColumnTwo,.FirstFlexColumnThree{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
 }
 
-/* Grid -2 code learned from https://www.youtube.com/watch?v=Pip8s2BpelM  */
-
-#SecondGridSection{
-    display: flex;
-    flex-direction: column;
-    /* margin-left: 3%; */
-    background-color:rgba(102, 86, 86, 0.089); 
-    max-width: 25%;
-    border-radius: 20px;
-    margin-bottom: 3%;
-         }
-        
-#SecondGridSection > div {
-    /* margin-top: 5%;
-    margin-left: 5%; */
-    margin:4%;
-    border: 2px solid #efe5e5;
-    height: 100px;
-    max-width: 90%;
-    border-radius: 10%;
-    background-color:white; 
-    border-color: rgba(98, 187, 205, 0.51);
-
-        }
-#SecondGridSection > div> img{
-    padding: 5%;
-    width: 50%;
-    height: 100%;
-    border-radius: 10%;
-    float: left;
+.FirstFlexColumnOne{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
 }
-
-#SecondGridSection{
-  float:right;
-  margin-right: 2%;
-  }
-
-  #SecondGridSection > div > p{
-    font-size: 0.5;
-    text-align: right;
-    padding: 3%;
+.FirstGridImage-1,.FirstGridImage-2,.FirstGridImage-3,.FirstGridImage-4,.FirstGridImage-5,.FirstGridImage-6{
+  display: flex;
+  width: 100%;
+  border-radius: 10%;
+  height: 50%;
 }
-/* The following section written separately because it requires different font */
-.SecondGridBelowImageFirstRow{
-  font-size:2%; 
-  text-align: left;
-}
+ /* Flex-2 code */
+ .SecondGridContainer{
+  display: flex;
+  padding: 12px 20px;
+  height:100%;
+  width: 20%;
+  row-gap: 20px;
+  float: right;
+  flex-direction: row;
 
-  /* Grid -3 */
-  /* Use flex box. Recommended */
+}
+.SecondFlexRowOne-1,.SecondFlexRowOne-2,.SecondFlexRowOne-3{
+  display: flex;
+  width: 50%;
+  border-radius: 10%;
+  height: 50%;
+}
+  /* Grid -3 code */
+ 
 .ThirdGridContainer{
     display: flex;
-    padding: 12px 20px;
-    /* background-size: 40px 40px; */
+    /* padding: 12px 20px; */
     height:100%;
-    width: 100%;
+    width: 90%;
     /* align-items: stretch; */
     /* background-image:
     linear-gradient(to right, grey 1px, transparent 1px),
     linear-gradient(to bottom, grey 1px, transparent 1px);   */
     column-gap: 20px;
-    background-color: #999;
+    /* background-color: #999; */
   }
   
- 
   .ColumnOne,.ColumnTwo,.ColumnThree,.ColumnFour {
     width: 100%;
     display: flex;
     flex-direction: column;
-
   }
 
- 
   .ColumnTwo,.ColumnFour
   {
     display:flex;
@@ -255,8 +214,6 @@ input[name=username], select {
   }
     /* Footer section learned from here 
     https://devdevout.com/css/css-footers*/
-        
-    
     
     /* html {
       font-size: 100%;
