@@ -117,21 +117,20 @@ input[name=username], select {
     width: 1.5%;   
   }
   
-  p{
-    /* color: rgb(156, 145, 145); */
+  /* p{
     font-size:large;
     font-weight: 300;
     margin-left: 2%;
     text-wrap:nowrap;
     text-align:left;
-  }
+  } */
  
 /* Flex-1 code */
  .FirstGridContainer{
   display: flex;
   padding: 2%;
-  height:100%;
-  width: 64%;
+  /* height:100%; */
+  width: 35%;
   align-self: self-start;
   column-gap: 20px;
   float: left;
@@ -152,73 +151,75 @@ input[name=username], select {
 }
 .FirstGridImage-1,.FirstGridImage-2,.FirstGridImage-3,.FirstGridImage-4,.FirstGridImage-5,.FirstGridImage-6{
   display: flex;
-  width: 100%;
+  width: 350px;
+  height: 350px;
   border-radius: 10%;
+  float: left;
 }
+
+
  /* Flex-2 code */
- .SecondGridContainer{
-  display: flex;
-  flex-direction: column;
+.SecondGridContainer{
+padding-right: 5%;
 }
 
 .SecondFlexRowOne{
   display: flex;
   flex-direction: column;
-  background-color: rgb(26, 255, 0);
-  width: 90%;
-  height: 100%;
-  padding: 3%;
+  /* background-color: rgb(26, 255, 0); */
+  width: 20%;
+  padding: 3%;  
+  float: right;
 }
 
 .SecondFlexRowOneImage-1{
   display: flex;
-  max-width: 50%;
-  min-height: 15vh;
   border-radius: 5%;
+  width: 275px;
+  height: 150px;
 }
+
 .SecondFlexRowOneImage-2{
   display: flex;
-  max-width: 50%;
-  min-height: 15vh;
   border-radius: 5%;
+  width: 275px;
+  height: 150px;
 }
+
 .SecondFlexRowOneImage-3{
   display: flex;
-  max-width: 50%;
-  min-height: 15vh;
   border-radius: 5%;
+  width: 275px;
+  height: 150px;
 }
 
 .heading1{
   display: flex;
   font-size: small;
   background-color: rgb(255, 0, 221);
-  width: 30%;
-}
+  width: 40%;
+  }
+
 .heading2{
   display: flex;
   font-size: small;
   background-color: rgb(0, 255, 191);
-  width: 30%;
+  width: 40%;
 }
+
 .heading3{
   display: flex;
   font-size: small;
   background-color: rgb(255, 225, 0);
-  width: 30%;
+  width: 40%;
 }
+
 .ThirdGridContainer{
-  padding-left: 2%;
+  padding: 5%;
     display: flex;
-    /* padding: 12px 20px; */
     height:100%;
     width: 90%;
-    /* align-items: stretch; */
-    /* background-image:
-    linear-gradient(to right, grey 1px, transparent 1px),
-    linear-gradient(to bottom, grey 1px, transparent 1px);   */
     column-gap: 20px;
-    /* background-color: #999; */
   }
   
   .ColumnOne,.ColumnTwo,.ColumnThree,.ColumnFour {
