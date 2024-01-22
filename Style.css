@@ -1,6 +1,9 @@
 *{
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+        /* padding-left: 1% ; */
+        /* padding-right: 2% ; */
+
+      }
 
 nav{
     padding: 10px 0;
@@ -115,7 +118,7 @@ input[name=username], select {
   }
   
   p{
-    color: rgb(156, 145, 145);
+    /* color: rgb(156, 145, 145); */
     font-size:large;
     font-weight: 300;
     margin-left: 2%;
@@ -126,13 +129,11 @@ input[name=username], select {
 /* Flex-1 code */
  .FirstGridContainer{
   display: flex;
-  padding: 12px 20px;
+  padding: 2%;
   height:100%;
-  width: 70%;
+  width: 64%;
   align-self: self-start;
-
   column-gap: 20px;
-
   float: left;
 }
 
@@ -153,28 +154,61 @@ input[name=username], select {
   display: flex;
   width: 100%;
   border-radius: 10%;
-  height: 50%;
 }
  /* Flex-2 code */
  .SecondGridContainer{
   display: flex;
-  padding: 12px 20px;
-  height:100%;
-  width: 20%;
-  row-gap: 20px;
-  float: right;
-  flex-direction: row;
+  flex-direction: column;
+}
 
-}
-.SecondFlexRowOne-1,.SecondFlexRowOne-2,.SecondFlexRowOne-3{
+.SecondFlexRowOne{
   display: flex;
-  width: 50%;
-  border-radius: 10%;
-  height: 50%;
+  flex-direction: column;
+  background-color: rgb(26, 255, 0);
+  width: 90%;
+  height: 100%;
+  padding: 3%;
 }
-  /* Grid -3 code */
- 
+
+.SecondFlexRowOneImage-1{
+  display: flex;
+  max-width: 50%;
+  min-height: 15vh;
+  border-radius: 5%;
+}
+.SecondFlexRowOneImage-2{
+  display: flex;
+  max-width: 50%;
+  min-height: 15vh;
+  border-radius: 5%;
+}
+.SecondFlexRowOneImage-3{
+  display: flex;
+  max-width: 50%;
+  min-height: 15vh;
+  border-radius: 5%;
+}
+
+.heading1{
+  display: flex;
+  font-size: small;
+  background-color: rgb(255, 0, 221);
+  width: 30%;
+}
+.heading2{
+  display: flex;
+  font-size: small;
+  background-color: rgb(0, 255, 191);
+  width: 30%;
+}
+.heading3{
+  display: flex;
+  font-size: small;
+  background-color: rgb(255, 225, 0);
+  width: 30%;
+}
 .ThirdGridContainer{
+  padding-left: 2%;
     display: flex;
     /* padding: 12px 20px; */
     height:100%;
@@ -285,3 +319,6 @@ input[name=username], select {
       }
     }   
 
+/* .secondgridtext-1{
+float: right;
+} */
