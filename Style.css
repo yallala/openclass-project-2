@@ -130,29 +130,30 @@ input[name=username], select {
   display: flex;
   padding: 2%;
   /* height:100%; */
-  width: 35%;
+  width: 50%;
   align-self: self-start;
   column-gap: 20px;
-  float: left;
+  /* float: left; */
+
 }
 
 .FirstFlexColumnOne,.FirstFlexColumnTwo,.FirstFlexColumnThree{
-  width: 100%;
+  width: 33%;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
 }
 
-.FirstFlexColumnOne{
+/* .FirstFlexColumnOne{
   width: 100%;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
-}
+} */
 .FirstGridImage-1,.FirstGridImage-2,.FirstGridImage-3,.FirstGridImage-4,.FirstGridImage-5,.FirstGridImage-6{
   display: flex;
-  width: 350px;
-  height: 350px;
+  width: 150px;
+  height: 150px;
   border-radius: 10%;
   float: left;
 }
@@ -160,17 +161,30 @@ input[name=username], select {
 
  /* Flex-2 code */
 .SecondGridContainer{
-padding-right: 5%;
+/* padding-right: 5%; */
+/* float: right; */
+display: flex;
+
 }
 
 .SecondFlexRowOne{
   display: flex;
   flex-direction: column;
   /* background-color: rgb(26, 255, 0); */
-  width: 20%;
-  padding: 3%;  
-  float: right;
+  /* width: 50%; */
+  padding: 5%;  
+  /* float: right; */
+  row-gap: 10px;
+
 }
+
+.SecondFlexFirstSet,.SecondFlexSecondSet,.SecondFlexThirdSet{
+  display: flex;
+  column-gap: 10%;
+  
+}
+
+
 
 .SecondFlexRowOneImage-1{
   display: flex;
@@ -214,12 +228,18 @@ padding-right: 5%;
   width: 40%;
 }
 
+
+/* firstandsecond together code */
+.firstandsecondtogether{
+  display: flex;
+
+}
 .ThirdGridContainer{
   padding: 5%;
     display: flex;
-    height:100%;
-    width: 90%;
-    column-gap: 20px;
+    /* height:100%; */
+    width: 80%;
+    column-gap: 5px;
   }
   
   .ColumnOne,.ColumnTwo,.ColumnThree,.ColumnFour {
@@ -232,12 +252,12 @@ padding-right: 5%;
   {
     display:flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 10px;
   }
   
    .bottomimage-1,.bottomimage-2,.bottomimage-3,.bottomimage-4,.bottomimage-5,.bottomimage-6{
     display: flex;
-    width: 100%;
+    width: 80%;
     border-radius: 10%;
     height: 100%;
   } 
