@@ -134,6 +134,10 @@ input[name=username], select {
   align-self: self-start;
   column-gap: 20px;
   /* float: left; */
+  background-color: #e6e9f2;
+  /* padding-right: 2%; */
+  border-radius: 5%;
+  
 }
 
 .FirstFlexColumnOne,.FirstFlexColumnTwo,.FirstFlexColumnThree{
@@ -141,6 +145,7 @@ input[name=username], select {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  
 }
 
 /* .FirstFlexColumnOne{
@@ -160,62 +165,65 @@ input[name=username], select {
 
  /* Flex-2 code */
 .SecondGridContainer{
-width: auto;
-padding-top: 3%;
-background-color: #b7b8bb;
-padding-left: 3%;
+/* width: auto; */
+/* padding-top: 3%; */
+background-color: #eceff8;
+padding-left: 2%;
 row-gap: 20%;
 border-color: brown;
 border: 20%;
-border-radius: 1%;
+border-radius: 5%;
+  /* height: 700px; */
+
 
 }
 
 /* .SecondFlexRowOne{
   /* display: flex; */
-  /* flex-direction: column; */
-  /* background-color: rgb(26, 255, 0); */
-  /* width: 50%; */
-  /* padding-left: 10%;   */
-  /* float: right; */
-  /* row-gap: 10px; */
+  
 
-/* } */
+/* }  */
 
 .SecondFlexFirstSet,.SecondFlexSecondSet,.SecondFlexThirdSet{
   display: flex;
   column-gap: 10%;
-  padding-top: 3%;
-  border: 5%;
+  padding-top: 10%;
+  /* border: 5%; */
   
 }
 
 .SecondFlexRowOneImage-1{
   display: flex;
-  border-radius: 5%;
+  border-radius: 15%;
   width: 200px;
   height: 150px;
+  padding-top: 3%;
+
 }
 
 .SecondFlexRowOneImage-2{
   display: flex;
-  border-radius: 5%;
+  border-radius: 15%;
   width: 200px;
   height: 150px;
+  padding-top: 3%;
+
 }
 
 .SecondFlexRowOneImage-3{
   display: flex;
-  border-radius: 5%;
-  width: 200px;
+  border-radius: 15%;
+  width: 225px;
   height: 150px;
+  padding-top: 3%;
+
 }
 
 .heading1{
   display: flex;
   font-size: small;
   width: 100%;
-  padding-top: 15%;
+  /* padding-top: 15%; */
   }
 
   /* .SecondFlexRowOne >.fa-star{
@@ -226,30 +234,36 @@ border-radius: 1%;
   display: flex;
   font-size: small;
   width: 100%;
-  padding-top: 15%;
+  /* padding-top: 15%; */
 }
 
 .heading3{
   display: flex;
   font-size: small;
   width: 100%;
-  padding-top: 15%;
+  /* padding-top: 15%; */
 }
 
 
 /* firstandsecond together code */
 .firstandsecondtogether{
   display: flex;
-  
+  /* padding-right: 1%; */
+
+
+
+  /* width: fit-content; */
+  /* align-items: center; */
 
 }
 .ThirdGridContainer{
   padding: 5%;
     display: flex;
     /* height:100%; */
-    width: 100%;
+    width: 90%;
     column-gap: 5px;
-  }
+    background-color: #eceff8;
+    }
   
   .ColumnOne,.ColumnTwo,.ColumnThree,.ColumnFour {
     width: 100%;
@@ -268,12 +282,18 @@ border-radius: 1%;
     display: flex;
     width: 80%;
     border-radius: 10%;
-    height: 100%;
+    height: 70%;
   } 
   .bottomimage-2{
-    height: 70%;
+    height: 30%;
   }
   .bottomimage-3{
+    height: 30%;
+  }
+  .bottomimage-5{
+    height: 30%;
+  }
+  .bottomimage-6{
     height: 30%;
   }
     /* Footer section learned from here 
