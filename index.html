@@ -5,13 +5,18 @@
     <title>Bookie</title>
     <meta charset="utf-8">
     <!-- look at assignment doc for what else is needed like assets"--> 
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css>" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css>" /> -->
   </head>
 
 
@@ -36,32 +41,66 @@
     </div>
 
       <form id="form" role="search">
-        <!-- <img src=".//images/map-image.jpeg"MapImage" class="MapImage"> -->
-        <i class="fa-solid fa-location-dot"></i>
+        <i class="fa-solid fa-location-dot fa-2xl"></i>
         <input type="search" id="query" name="q"
          placeholder="Marseille, France"
          aria-label="Search through site content">
         <button>Search</button>
       </form>
+      
       <div class = "FilterText">
         <h2>Filters</h2> 
     </div>
 
-    <div id ="FilterImages">
-        <img src="./images/LowCost.png"LowCostImage" class="LowCostImage" alt="LowCost">
-        <input name="username" placeholder="LowCost">
-        <img src="./images/FamilyFriendly.jpeg"FamilyFriendlyImage" class="FamilyFriendlyImage" alt="FamilyFriendly">
-        <input name="username" placeholder="Family Friendly">
-        <img src="./images/RomanticImage.png"RomanticImage" class="RomanticImage" alt="RomanticImage">
-        <input name="username" placeholder="Romantic">
-        <img src="./images/PetsAllowed.png"PetsAllowedImage" class="PetsAllowedImage" alt="PetsAllowedImage">
-        <input name="username" placeholder="Pets Allowed">
-    </div>
+    <!-- Font awesome image sizes 
+    fa-2xs	0.625em	10px
+    fa-xs	0.75em	12px
+    fa-sm	0.875em	14px
+    fa-lg	1.25em	20px
+    fa-xl	1.5em	24px
+    fa-2xl	2em	32px -->
 
-    <p class="SearchResultstext">
-        <img src="./images/FilterResultsImage.png" class="searchresultsicon">
-        More than 500 accommodations are available in this city
-    </p>
+        <div class="FilterImages">
+          <i class="fa-solid fa-circle-dollar-to-slot fa-2xl" ></i>
+          <input type="search" placeholder="LowCost" class="text-1">
+          &nbsp  &nbsp
+
+          <i class="fa-solid fa-people-roof fa-2xl"></i>
+          <input type="search" placeholder="Family Friendly" class="text-2">
+          &nbsp  &nbsp
+
+          <i class="fa-solid fa-heart-circle-check fa-2xl"></i>
+          <input type="search" placeholder="Romantic" class="text-3">
+          &nbsp  &nbsp
+
+         <i class="fa-solid fa-paw fa-2xl"></i>
+         <input type="search" placeholder="Pets Allowed" class="text-4">
+        </div>
+
+    <!-- <div class="SearchResultstext">  -->
+        <!-- <img src="./images/FilterResultsImage.png" class="searchresultsicon"> -->
+        <!-- <div>
+          <i class="fa-solid fa-circle-exclamation fa-2xl"></i>
+
+        </div> -->
+        
+        <!-- <div>
+          <p> More than 500 accommodations are available in this city</p> 
+
+        </div> -->
+    <!-- </div> -->
+
+    <div class="SearchResultsCountText">
+      <div>
+        <i class="fa-solid fa-circle-exclamation fa-2xl"></i>
+
+      </div>
+      &nbsp  &nbsp
+      <p> More than 500 accommodations are available in this city</p> 
+
+
+    </div>
+    
 <!-- Flex-1 html code -->
 <div>
   <h2 class = "ResultsHeading-1"> Accommodations in Marseille </h2>

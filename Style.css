@@ -5,6 +5,7 @@
 
       }
 
+      
 nav{
     padding: 10px 0;
     display: flex;
@@ -42,11 +43,12 @@ nav ul li a{
 /* form code reference https://pagedart.com/blog/how-to-add-a-search-bar-in-html/#html-form */
 
 form {
-  
+  padding-left: 20px;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
+
 }
 
   .MapImage {
@@ -78,44 +80,48 @@ form {
   input[type=search], select {
     width: 16%;
     height: 50px;
-    padding: 12px 20px;
+    /* padding: 12px 20px; */
     margin: 8px 0;
     display: inline-block;
     border: 3px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
     box-sizing: border-box;
-  }
-  .FilterText{
-    margin-left: 2%;
-    font-size: small;
+    /* border-color: crimson; */
   }
 
-  #FilterImages {
+  /* .FilterText{
+    padding-left: 20px;
+    font-size: small;
+  } */
+
+  /* #FilterImages {
    padding-left: 2%;
     display:flex;
     flex-wrap: wrap;
+} */
+
+.FilterImages{
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
-#FilterImages img {
-    width: 3%;
+.SearchResultsCountText{
+padding-left: 20px;
+display: flex;
 }
 
-input[name=username], select {
-    width: 16%;
-    height: 50px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 3px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
+.FilterText{
+padding-left: 20px;
+
+}
+
+
   
-  .searchresultsicon{
+  /* .searchresultsicon{
     padding-top: 1%;
     margin-left: 1%;
     width: 1.5%;   
-  }
+  } */
   
   /* p{
     font-size:large;
