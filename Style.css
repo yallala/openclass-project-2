@@ -112,7 +112,6 @@ display: flex;
 
 .FilterText{
 padding-left: 20px;
-
 }
 
 
@@ -143,15 +142,42 @@ padding-left: 20px;
   background-color: #e6e9f2;
   /* padding-right: 2%; */
   border-radius: 5%;
+  height: 800px;
   
 }
+/* .AccommodationsinMarseilleText{
+color: chocolate;
+/* text-wrap: nowrap; */
+/* padding-bottom: 20px; */
+/* text-align: left; */
+/* padding: 20%; */
+/* vertical-align: top; */
+/* margin-top: -4px; */
 
+.firstgridtoptext{
+  position: absolute;
+  font-size:x-large;
+}
+.firstgridtoptext2{
+  position:absolute;
+  font-size: x-large;
+  padding-top: 2%;
+}
+
+.ResultsHeading-3{
+position:absolute;
+  font-size: x-large;
+  /* padding-top: 2%; */
+
+}
+
+/* } */ 
 .FirstFlexColumnOne,.FirstFlexColumnTwo,.FirstFlexColumnThree{
+  padding-top: 15px;
   width: 33%;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
-  
 }
 
 /* .FirstFlexColumnOne{
@@ -161,9 +187,10 @@ padding-left: 20px;
   row-gap: 20px;
 } */
 .FirstGridImage-1,.FirstGridImage-2,.FirstGridImage-3,.FirstGridImage-4,.FirstGridImage-5,.FirstGridImage-6{
+  /* padding-top: 10%; */
   display: flex;
   width: 300px;
-  height: 200px;
+  height: 250px;
   border-radius: 10%;
   /* float: left; */
 }
@@ -254,18 +281,15 @@ border-radius: 5%;
 /* firstandsecond together code */
 .firstandsecondtogether{
   display: flex;
-  /* padding-right: 1%; */
-
-
-
-  /* width: fit-content; */
-  /* align-items: center; */
-
+  /* height: 25px; */
+padding-bottom: 5%;
 }
+
 .ThirdGridContainer{
-  padding: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
     display: flex;
-    /* height:100%; */
+    height:650px;
     width: 90%;
     column-gap: 5px;
     background-color: #eceff8;
