@@ -127,17 +127,17 @@ margin-left: 3%;
   align-self: self-start;
   column-gap: 20px;
   background-color: #e6e9f2;
-  border-radius: 5%;
+  border-radius: 20px;
   height: 800px;
   margin-left: 2%;
   width: 60%;
   
 }
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .FirstGridContainer{
-    flex-direction: row;
+    flex-direction: column;
   }
-}
+} */
 
 .firstgridtoptext{
   position: absolute;
@@ -171,46 +171,80 @@ position:absolute;
   display: flex;
   width: 300px;
   height: 250px;
-  border-radius: 10%;
+  border-radius: 20px;
 }
+
+.FirstFlexFirstImageSet,.FirstFlexSecondImageSet,.FirstFlexThirdImageSet,.FirstFlexFourthImageSet,.FirstFlexFifthImageSet,.FirstFlexSixthImageSet{
+  background-color: white;
+  border-style: groove;
+  border-color: rgb(244, 232, 232);
+  border-width: 1px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
 
 
  /* Flex-2 code */
 .SecondGridContainer{
 background-color: #eceff8;
-padding-left: 3%;
 row-gap: 20%;
-border-color: brown;
-border: 10%;
-border-radius: 3%;
-margin-left: 3%;
-margin-right: 3%;
-width: 40%;
-
+border-radius: 20px;
+margin-left: 20px;
 }
-@media (max-width: 800px) {
-  .SecondGridContainer{
-    flex-direction: row;
+
+.SecondFlexRowOne{
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
   }
+
+
+.FirimageTextSet{
+  padding-top: 20px;
 }
 
 
+.SecondFlexFirstSet{
+border-style: groove;
+border-color: white;
+border-width: 1px;
+border-radius: 20px;
+padding: 20px;
+}
+.SecondFlexSecondSet{
+  border-style: groove;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 20px;
+  padding: 20px;
+  }
+  .SecondFlexThirdSet{
+    border-style: groove;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 20px;
+    }
 
 .SecondFlexFirstSet,.SecondFlexSecondSet,.SecondFlexThirdSet{
   display: flex;
-  column-gap: 10%;
-  padding-top: 19%;
-  padding-right: 5%;
+  column-gap: 20px;
+  /* padding-top: 19%; */
+  /* padding-right: 5%; */
+  background-color: white;
+  /* padding: 40px; */
   
 }
 
 .SecondFlexRowOneImage-1{
   display: flex;
-  border-top-left-radius: 15%;
-  border-bottom-left-radius: 15%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   width: 200px;
   height: 150px;
-  padding-top: 3%;
+  /* padding-top: 3%; */
 
 }
 
@@ -279,10 +313,23 @@ padding: 3%;
   
     }
     @media (max-width: 800px) {
-      .ThirdGridContainer{
-        flex-direction: column;
-      }
+    
+      .FirstGridContainer{
+      flex-direction: column;
+  
     }
+    .SecondGridContainer{
+      flex-direction: row;
+    }
+    .ThirdGridContainer{
+      flex-direction: column;
+    }
+    .firstandsecondtogether{
+      flex-direction: column;
+
+    }
+  }
+
   
   .ColumnOne,.ColumnTwo,.ColumnThree,.ColumnFour {
     padding-top: 2%;
