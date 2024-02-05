@@ -142,15 +142,18 @@ margin-left: 3%;
 .firstgridtoptext{
   position: absolute;
   font-size:x-large;
+
+
+  
 }
 .firstgridtoptext2{
   position:absolute;
   font-size: large;
-  padding-top: 3%;
+  padding-left: 10px;
 }
 
 .ResultsHeading-3{
-position:absolute;
+/* position:absolute; */
   font-size: large;
   padding-left: 7%;
   padding-top: 1%;
@@ -186,6 +189,18 @@ position:absolute;
 
 
  /* Flex-2 code */
+
+ .Secondgridtoptext{
+  font-size:x-large;
+  margin-left: 3%;
+  display: inline-block;
+  padding-top: 15px;
+}
+.fa-fw{
+  padding-left: 250px;
+}
+
+
 .SecondGridContainer{
 background-color: #eceff8;
 /* row-gap: 20px; */
@@ -193,8 +208,6 @@ border-radius: 20px;
 margin-left: 15px;
 height: 710px;
 width: 500px;
-
-
 }
 
 .SecondFlexRowOne{ 
@@ -212,16 +225,16 @@ width: 500px;
 
 .FirstimageTextSet{
   /* height: 750px; */
-  padding: 20px;
+  padding: 10px;
 }
 
 .SecondimageTextSet{
-  padding: 20px;
+  padding: 10px;
 
 }
 
 .ThirdimageTextSet{
-  padding: 20px;
+  padding: 10px;
 
 
 }
@@ -232,9 +245,9 @@ width: 500px;
     border-width: 1px;
     /* border-radius: 20px; */
     padding: 10px;
-    height: 150px;
+    height: 120px;
     margin-right: 10%;
-    width:375px;
+    width:400px;
     column-gap: 20px;
     display: flex;
 
@@ -247,9 +260,9 @@ width: 500px;
     border-width: 1px;
     /* border-radius: 20px; */
     padding: 20px;
-    height: 150px;
+    height: 120px;
     margin-right: 10%;
-    width:350px;
+    width:380px;
     column-gap: 20px;
 
   }
@@ -260,9 +273,9 @@ width: 500px;
     border-width: 1px;
     /* border-radius: 20px; */
     padding: 20px;
-    height: 150px;
+    height: 120px;
     margin-right: 10%;
-    width:350px;
+    width:380px;
     column-gap: 20px;
 
     }
@@ -285,7 +298,7 @@ width: 500px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 15px;
   width: 250px;
-  height: 125px;
+  height: 100px;
   padding-top: 3%;
   margin-left: 10px;
 
@@ -297,7 +310,7 @@ width: 500px;
   border-top-left-radius: 20%;
   border-bottom-left-radius: 15%;
   width: 425px;
-  height: 125px;
+  height: 100px;
   padding-top: 3%;
 }
 
@@ -306,7 +319,7 @@ width: 500px;
   border-top-left-radius: 20%;
   border-bottom-left-radius: 15%;
   width: 250px;
-  height: 125px;
+  height: 100px;
   padding-top: 3%;
 
 }
