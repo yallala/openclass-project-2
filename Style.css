@@ -1,7 +1,7 @@
-*{
+/* *{
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-      }
+      } */
 
       
 nav{
@@ -10,13 +10,15 @@ nav{
     justify-content: space-between;
 }
 .logo{
-    width: 120px;
-    height: 90px;
+  padding-top: 30px;
+    width: 85px;
+    height: 65px;
     margin-left: 3%;
+    padding-bottom: 20px;
 }
 
 nav ul{
-
+  padding-top: 30px;
   list-style-type: none;
   margin-right: 4%;
 
@@ -32,6 +34,7 @@ nav ul li a{
     color: #0844de;
     font-weight: 400;
     margin: 20px;  
+    font-size: large;
 }
 .content-1{
     color: rgb(9, 9, 9);
@@ -43,7 +46,7 @@ nav ul li a{
 
 .content-2{
     color: rgb(156, 145, 145);
-    font-size:small;
+    font-size:large;
     font-weight: 300;
     margin-left: 5%;
 }
@@ -100,33 +103,46 @@ form {
 
   
 
+
+
 .FilterImages{
-  padding-left: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
   padding-bottom: 20px;
   margin-left: 3%;
+  /* flex-wrap: nowrap; */
+  display: flex;
 
 }
 
-.SearchResultsCountText{
-padding-left: 20px;
-display: flex;
-margin-left: 3%;
 
-}
 
 .FilterText{
-padding-left: 20px;
-margin-left: 3%;
-
+  padding-top: 10px;
+  margin-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 10px;
 }
- 
+.SearchResultsCountText{
+  padding-left: 20px;
+  display: flex;
+  margin-left: 3%;
+  }
+
+.Morethan500Text{
+  color: rgb(156, 145, 145);
+  font-size:large;
+  font-weight: 300;
+  /* margin-left: 5%; */
+}
 /* Flex-1 code */
  .FirstGridContainer{
   display: flex;
   padding: 2%;
   align-self: self-start;
   column-gap: 20px;
-  background-color: #e6e9f2;
+  /* background-color: #dbdcdc; */
+  background-color: rgba(90, 96, 96, 0.11);
   border-radius: 20px;
   height: 650px;
   margin-left: 2%;
@@ -154,9 +170,11 @@ margin-left: 3%;
 
 .ResultsHeading-3{
 /* position:absolute; */
-  font-size: large;
+  font-size:x-large;
   padding-left: 7%;
   padding-top: 1%;
+  font-weight: 600;
+  
 
 }
 
@@ -200,9 +218,17 @@ margin-left: 3%;
   padding-left: 250px;
 }
 
+.fa-solid{
+  color: blue;
+}
+
+.fa-regular{
+  color: #999;
+}
 
 .SecondGridContainer{
-background-color: #eceff8;
+  /* background-color: #dbdcdc; */
+  background-color: rgba(90, 96, 96, 0.11);
 /* row-gap: 20px; */
 border-radius: 20px;
 margin-left: 15px;
@@ -349,6 +375,7 @@ width: 500px;
 .firstandsecondtogether{
   display: flex;
   padding: 3%;
+  /* height: 750px; */
 
 }
 
@@ -359,7 +386,8 @@ width: 500px;
 } */
 
 .ThirdGridContainer{
-    padding: 30px;
+    /* padding: 20px; */
+    padding-left: 30px;
     display: flex;
     max-height:400px;
     width: 92%;
@@ -393,7 +421,15 @@ width: 500px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    /* border-color: #0844de; */
+    background-color: white;
+    /* border-bottom-right-radius: 20px; */
+    /* border-bottom-left-radius: 20px; */
+    /* border-style:groove; */
+    border-color: #999;
   }
+
+ 
 
   .ColumnTwo,.ColumnFour
   {
@@ -406,21 +442,52 @@ width: 500px;
    .bottomimage-1,.bottomimage-2,.bottomimage-3,.bottomimage-4,.bottomimage-5,.bottomimage-6{
     display: flex;
     width: 90%;
-    border-radius: 5%;
+    /* border-radius: 5%; */
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+
     height: 100%;
   } 
   .bottomimage-2{
-    height: 50%;
+    height: 30%;
     
   }
   .bottomimage-3{
-    height: 30%;
+    height: 20%;
   }
   .bottomimage-5{
-    height: 50%;
+    height: 30%;
   }
   .bottomimage-6{
-    height: 30%;
+    height: 20%;
+  }
+
+  .oldporttext{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    /* border-style: groove; */
+    background-color:rgb(255, 255, 255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 270px;
+    padding-left: 20px;
+    /* border-color: blueviolet; */
+    border-color: rgb(239, 244, 235);
+    border-style:solid;
+    font-weight: 700;
+    /* box-shadow: #8f2e2e; */
+    /* align-content: ; */
+    /* text-align: center; */
+    /* border-color: #0844de; */
+    /* border-style:inset;
+    width:280px;
+    /* border-radius: 20px; */
+    /* border-top-left-radius: 75px;
+    border-bottom-left-radius: 75px;
+    border-top-right-radius: 75px;  */
+    
   }
     /* Footer section learned from here 
     https://devdevout.com/css/css-footers*/
