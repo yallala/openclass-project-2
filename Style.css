@@ -91,7 +91,7 @@ form {
   }
   
   input[type=search], select {
-    width: 16%;
+    width: 18%;
     height: 50px;
     margin: 8px 0;
     display: inline-block;
@@ -251,16 +251,16 @@ width: 500px;
 
 .FirstimageTextSet{
   /* height: 750px; */
-  padding: 10px;
+  padding: 5px;
 }
 
 .SecondimageTextSet{
-  padding: 10px;
+  padding: 5px;
 
 }
 
 .ThirdimageTextSet{
-  padding: 10px;
+  padding: 5px;
 
 
 }
@@ -389,12 +389,12 @@ width: 500px;
     /* padding: 20px; */
     padding-left: 30px;
     display: flex;
-    max-height:400px;
+    max-height:500px;
     width: 92%;
     column-gap: 5px;
     margin-left: 3%;
     border-radius: 15px;
-    margin-bottom: 5%;
+    margin-bottom: 30px;
   
     }
     @media (max-width: 800px) {
@@ -426,7 +426,7 @@ width: 500px;
     /* border-bottom-right-radius: 20px; */
     /* border-bottom-left-radius: 20px; */
     /* border-style:groove; */
-    border-color: #999;
+    /* border-color: #999; */
   }
 
  
@@ -442,53 +442,113 @@ width: 500px;
    .bottomimage-1,.bottomimage-2,.bottomimage-3,.bottomimage-4,.bottomimage-5,.bottomimage-6{
     display: flex;
     width: 90%;
-    /* border-radius: 5%; */
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-
-
     height: 100%;
   } 
   .bottomimage-2{
-    height: 30%;
+    height: 220px;
     
   }
   .bottomimage-3{
-    height: 20%;
+    height: 90px;
   }
   .bottomimage-5{
-    height: 30%;
+    height: 220px;
   }
   .bottomimage-6{
-    height: 20%;
+    height: 90px;
   }
 
-  .oldporttext{
+  .oldporttext1{
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
-    /* border-style: groove; */
     background-color:rgb(255, 255, 255);
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     width: 270px;
     padding-left: 20px;
-    /* border-color: blueviolet; */
     border-color: rgb(239, 244, 235);
     border-style:solid;
     font-weight: 700;
-    /* box-shadow: #8f2e2e; */
-    /* align-content: ; */
-    /* text-align: center; */
-    /* border-color: #0844de; */
-    /* border-style:inset;
-    width:280px;
-    /* border-radius: 20px; */
-    /* border-top-left-radius: 75px;
-    border-bottom-left-radius: 75px;
-    border-top-right-radius: 75px;  */
-    
-  }
+    box-shadow: 0 0 10px rgba(0,0,0.5);
+    }
+
+    .oldporttext2{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      background-color:rgb(255, 255, 255);
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      width: 270px;
+      padding-left: 20px;
+      border-color: rgb(239, 244, 235);
+      border-style:solid;
+      font-weight: 700;
+      box-shadow: 0 0 10px rgba(0,0,0.5);
+      }
+  
+      .oldporttext3{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        background-color:rgb(255, 255, 255);
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        width: 270px;
+        padding-left: 20px;
+        border-color: rgb(239, 244, 235);
+        border-style:solid;
+        font-weight: 700;
+        box-shadow: 0 0 10px rgba(0,0,0.5);
+        }
+
+        .oldporttext4{
+          padding-top: 20px;
+          padding-bottom: 20px;
+          display: flex;
+          background-color:rgb(255, 255, 255);
+          border-bottom-right-radius: 20px;
+          border-bottom-left-radius: 20px;
+          width: 270px;
+          padding-left: 20px;
+          border-color: rgb(239, 244, 235);
+          border-style:solid;
+          font-weight: 700;
+          box-shadow: 0 0 10px rgba(0,0,0.5);
+          }
+
+          .oldporttext5{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            background-color:rgb(255, 255, 255);
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            width: 270px;
+            padding-left: 20px;
+            border-color: rgb(239, 244, 235);
+            border-style:solid;
+            font-weight: 700;
+            box-shadow: 0 0 10px rgba(0,0,0.5);
+            }
+
+            .oldporttext6{
+              padding-top: 20px;
+              padding-bottom: 20px;
+              display: flex;
+              background-color:rgb(255, 255, 255);
+              border-bottom-right-radius: 20px;
+              border-bottom-left-radius: 20px;
+              width: 270px;
+              padding-left: 20px;
+              border-color: rgb(239, 244, 235);
+              border-style:solid;
+              font-weight: 700;
+              box-shadow: 0 0 10px rgba(0,0,0.5);
+              }
     /* Footer section learned from here 
     https://devdevout.com/css/css-footers*/
     
