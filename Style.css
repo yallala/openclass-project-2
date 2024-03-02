@@ -1,7 +1,7 @@
-/* *{
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-      } */
+        /* font-family:Raleway; */
+
+      
 
       
 nav{
@@ -472,7 +472,7 @@ width: 500px;
   }
 
   .oldporttext{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 5px;
     background-color:rgb(255, 255, 255);
     border-bottom-right-radius: 20px;
@@ -617,5 +617,13 @@ width: 500px;
     .oldporttext{
       width: 85%;
       }
+
+     .Logoandnavbar{
+      max-width: 11vw; /* find suitable value for you */
+display:flex;
+width: 100%;
+
+     }
+      
 
 }
