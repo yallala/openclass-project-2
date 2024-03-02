@@ -592,7 +592,7 @@ width: 500px;
     }
     .SecondGridContainer{
       flex-direction: row;
-      height: max-content;
+      /* height: max-content; */
       margin-top: 20px;
       width: 100%;
 
