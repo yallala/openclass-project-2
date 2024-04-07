@@ -567,7 +567,7 @@ width: 500px;
       }
     }   
 
-    @media (max-width: 800px) {
+    @media (max-width: 1000px) {
       .nav__ul a {
         color: #0b0a0a;
         font-size:large;
