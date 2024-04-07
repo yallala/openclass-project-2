@@ -89,7 +89,7 @@ form {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border: 0.5px solid #9fc5f3;
-    align-items: top;
+    /* align-items: */
   }
   .FilterIconCircleButton{
   height: 40px;
@@ -97,7 +97,7 @@ form {
   border-radius: 50%;
   /* border: 1px solid red; */
   background-color: rgb(131, 188, 246);
-  margin-left: none;
+  /* margin-left: none; */
   }
  
 .Form-1{
@@ -114,15 +114,6 @@ form {
   }
 
  
-  /* .material-symbols-outlined {
-  
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
-  } */
-  
 
   input[type=search2] {
     font-size: 16px;
@@ -567,7 +558,7 @@ width: 500px;
       }
     }   
 
-    @media (max-width: 1000px) {
+    @media (max-width: 800px) {
       .nav__ul a {
         color: #0b0a0a;
         font-size:large;
