@@ -88,7 +88,7 @@ form {
     border-left: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    border: 2px solid #9fc5f3;
+    border: 0.5px solid #9fc5f3;
     /* align-items: */
     
   /* padding-bottom: 20px; */
@@ -111,10 +111,11 @@ form {
 
   input[type=text] {
     font-size: 16px;
-    height: 10px;
+    height: 7px;
     border: 2px solid #c4a7a7;
     /* padding-top: 15px; */
     padding: 20px;
+    margin-top: 10px;
 
   }
 
@@ -126,7 +127,7 @@ form {
     color: rgba(9, 8, 8, 0.802);
     border:#0b0a0a;
     background: transparent;
-    padding-left: 8px;
+    padding-left: 15px;
     height: 25px;
     width: 120px;
     border-radius: 28px;
@@ -149,8 +150,8 @@ form {
 
  .FilterSearchContainer-1,.FilterSearchContainer-2,.FilterSearchContainer-3,.FilterSearchContainer-4{
 
-  width: 175px;
-  height: 40px;
+  width: 200px;
+  height: 45px;
   display: flex;
   align-items: center;
   
