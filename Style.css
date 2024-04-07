@@ -58,7 +58,6 @@ form {
   flex-direction: row;
   align-items: center;
   margin-left: 5%;
-
 }
 
 .fa-location-dot{
@@ -73,6 +72,7 @@ form {
               border-color: rgb(239, 244, 235);
               /* height: 5px;       */
               border: 0.5px solid #c4a7a7;
+              
 }
 
   button {
@@ -88,9 +88,12 @@ form {
     border-left: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    border: 0.5px solid #9fc5f3;
+    border: 2px solid #9fc5f3;
     /* align-items: */
+    
+  /* padding-bottom: 20px; */
   }
+  
   .FilterIconCircleButton{
   height: 40px;
   width: 40px;
@@ -106,30 +109,33 @@ form {
   flex-wrap: wrap;
 }
 
-  input[type=search1] {
+  input[type=text] {
     font-size: 16px;
-    height: 46px;
-    border: 0.5px solid #c4a7a7;
+    height: 10px;
+    border: 2px solid #c4a7a7;
+    /* padding-top: 15px; */
+    padding: 20px;
 
   }
 
  
 
-  input[type=search2] {
+  input[type=search] {
     font-size: 16px;
-   
+    /* padding-top: 10px; */
     color: rgba(9, 8, 8, 0.802);
-    border: none;
+    border:#0b0a0a;
     background: transparent;
-    height: 30px;
     padding-left: 8px;
-    width: 125px;
+    height: 25px;
+    width: 120px;
     border-radius: 28px;
+    align-items: center;
   }
 
 
 
-.search-input1::placeholder{
+.search-input-1::placeholder{
   color: black;
   font-weight: 600;
   font-weight: bold;
