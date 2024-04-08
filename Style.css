@@ -35,21 +35,17 @@ nav ul li a{
     color: rgb(9, 9, 9);
     font-size:large;
     font-weight: 90;
-    margin-left: 5%;
-
-
-    
+    margin-left: 5%;  
 }
 
 .content-2{
-    color: rgb(156, 145, 145);
+    color:#969191;
     font-size:large;
     font-weight: 300;
     margin-left: 5%;
 }
 
 form {
- 
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -57,17 +53,16 @@ form {
 }
 
 .fa-location-dot{
-              padding-top: 30px;
-              padding-left: 10px;
-              padding-bottom: 20px;
-              background-color:rgb(186, 181, 181);
-              border-top-left-radius: 20%;
-              border-bottom-left-radius: 20%;
-              width: 30px;
-              padding-left: 20px;
-              border-color: rgb(239, 244, 235);
-              border: 0.5px solid #c4a7a7;
-              
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  background-color:rgb(186, 181, 181);
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+  width: 30px;
+  padding-left: 20px;
+  border-color: rgb(239, 244, 235);
+  border: 0.5px solid #c4a7a7;        
 }
 
   button {
@@ -92,11 +87,11 @@ form {
   background-color: rgb(131, 188, 246);
   }
  
-.Form-1{
+  .Form-1{
 
   padding-top: 20px;
   flex-wrap: wrap;
-}
+  }
 
   input[type=text] {
     font-size: 16px;
@@ -106,28 +101,32 @@ form {
     margin-top: 10px;
 
   }
-
- 
+  input[type="text"]:hover {
+    border: 2px solid black;
+  }
+  input[type="search"]:hover {
+    border: 1px solid black;
+  }
 
   input[type=search] {
+    margin-top: 10px;
     font-size: 16px;
     color: rgba(9, 8, 8, 0.802);
     border:#0b0a0a;
     background: transparent;
     padding-left: 15px;
-    height: 25px;
-    width: 120px;
+    height: 30px;
+    width: 135px;
     border-radius: 28px;
     align-items: center;
   }
 
-
-
-.search-input-1::placeholder{
+  .search-input-1::placeholder{
   color: black;
   font-weight: 600;
   font-weight: bold;
-}
+  }
+
 .search-input2::placeholder{
   color: black;
   font-weight: 600;
@@ -141,14 +140,10 @@ form {
   height: 45px;
   display: flex;
   align-items: center;
-  
   border-radius: 28px;
   background:#f4f6f9;
   border: 1px solid #5c5959;
  }
-
-
-
 
 .SearchResultsCountText{
   padding-left: 20px;
@@ -158,10 +153,11 @@ form {
   }
 
 .Morethan500Text{
-  color: rgb(156, 145, 145);
+  color:#969191;
   font-size:large;
   font-weight: 300;
 }
+
  .FirstGridContainer{
   display: flex;
   padding: 2%;
@@ -172,7 +168,6 @@ form {
   height: 700px;
   margin-left: 2%;
   width: 60%;
-  
 }
 
 
@@ -180,9 +175,6 @@ form {
   position: absolute;
   font-size:x-large;
   padding-top: 15px;
-
-
-  
 }
 .firstgridtoptext2{
   position:absolute;
@@ -196,8 +188,6 @@ form {
   padding-left: 7%;
   padding-top: 1%;
   font-weight: 600;
-  
-
 }
 
 
@@ -241,8 +231,6 @@ form {
 }
 
 
-
-
 .fa-solid{
   color: blue;
 }
@@ -274,13 +262,10 @@ width: 500px;
 
 .SecondimageTextSet{
   padding: 10px;
-
 }
 
 .ThirdimageTextSet{
   padding: 10px;
-
-
 }
 
 .SecondFlexFirstSet{
@@ -292,8 +277,6 @@ width: 500px;
     width:420px;
     column-gap: 20px;
     display: flex;
-
-
 }
 
 .SecondFlexSecondSet{
@@ -305,7 +288,6 @@ width: 500px;
     margin-right: 10%;
     width:375px;
     column-gap: 20px;
-
   }
 
   .SecondFlexThirdSet{
@@ -317,7 +299,6 @@ width: 500px;
     margin-right: 10%;
     width:375px;
     column-gap: 20px;
-
     }
 
 .SecondFlexFirstSet,.SecondFlexSecondSet,.SecondFlexThirdSet{
@@ -339,8 +320,6 @@ width: 500px;
   height: 100px;
   padding-top: 5%;
   margin-left: 25px;
-
-
 }
 
 .SecondFlexRowOneImage-2{
@@ -402,7 +381,6 @@ width: 500px;
     margin-left: 3%;
     border-radius: 15px;
     margin-bottom: 5%;
-  
     }
    
 
@@ -423,7 +401,6 @@ width: 500px;
   {
     display:flex;
     flex-direction: column;
-    
   }
   
    .bottomimage-1,.bottomimage-2,.bottomimage-3,.bottomimage-4,.bottomimage-5,.bottomimage-6{
@@ -437,7 +414,6 @@ width: 500px;
   
   .bottomimage-2{
     height: 250px;
-    
   }
   .bottomimage-3{
     height: 100px;
@@ -469,20 +445,18 @@ width: 500px;
       margin: 0;
       display: flex;
       font-size: 14px;
-      background-color: #f4f4f4;
+      background-color: #F2F2F2;
       align-items: start;
 
     }
     .footer > * {
       flex:  1 100%;
-      
     }
     
     .nav__title {
       font-weight: 800;
       font-size: 15px;
       margin-left: 2%;
-      
     }
     
     .footer ul {
@@ -493,7 +467,6 @@ width: 500px;
     .footer li {
       line-height: 2em;
       margin-left: -3%;
-
     }
     
     .footer a {
@@ -509,21 +482,18 @@ width: 500px;
     .footer__nav > * {
       flex: 1 50%;
       margin-right: 1.25em;
-
     }
     
     .nav__ul a {
       color: #999;
-
     }
     
     .nav__ul--extra {
       column-count: 1;
       column-gap: 1.25em;
-      
     }
      
-    @media screen and (max-width: 700px){
+    @media screen and (max-width: 992px){
       .footer__nav > * {
         flex: 1;
       }
@@ -543,7 +513,7 @@ width: 500px;
       }
     }   
 
-    @media (max-width: 1000px) {
+    @media (max-width: 992px) {
       .nav__ul a {
         color: #0b0a0a;
         font-size:large;
@@ -561,10 +531,9 @@ width: 500px;
       
       .footer li {
         line-height: 4em;
-
-    }
+        }
       
-      .FirstGridContainer{
+    .FirstGridContainer{
       flex-direction: column;
       height: max-content;
       padding-bottom: 20px;
@@ -575,16 +544,16 @@ width: 500px;
       flex-direction: row;
       margin-top: 20px;
       width: 100%;
-
-    }
+     }
     .ThirdGridContainer{
       flex-direction: column;
       height: max-content;
-      
+      margin-left: 2px;
     }
     .firstandsecondtogether{
       flex-direction: column;
       height: max-content;
+      margin-left: 5px;
 
     }
     .FilterSearchContainer-1{
@@ -595,15 +564,15 @@ width: 500px;
       row-gap: 10px;
     }
     .oldporttext{
-      width: 96%;
+      width: 95%;
       }
       
-      .Logoandnavbar{
+    .Logoandnavbar{
         display: flex;
         flex-direction: column;
       }
 
-      .logo{
+    .logo{
         margin: 0 auto;
         padding: 0;
         width: 125px;
@@ -611,7 +580,7 @@ width: 500px;
 
       }
 
-      nav ul li{
+    nav ul li{
         flex: 1;
         text-align: center;
         margin: 0;
@@ -641,10 +610,8 @@ width: 500px;
      .oldporttext{
       font-size: 20px;
      }
-.bottomimage-1, .bottomimage-2, .bottomimage-3, .bottomimage-4,.bottomimage-5, .bottomimage-6{
-  height: 300px;
-}
 
-
-
+     .bottomimage-1, .bottomimage-2, .bottomimage-3, .bottomimage-4,.bottomimage-5, .bottomimage-6{
+        height: 300px;
+      }
     }
