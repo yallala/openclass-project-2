@@ -1,10 +1,11 @@
 
-      
+/* Top navigation code to organize navigation items*/
 nav{
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
 }
+
 .logo{
   padding-top: 30px;
     width: 85px;
@@ -31,12 +32,16 @@ nav ul li a{
     font-weight: 400;
     margin: 20px;  
 }
+
+/* Top heading style that is Find a place for your dream vacation */
+
 .content-1{
     color: rgb(9, 9, 9);
     font-size:large;
     font-weight: 90;
     margin-left: 5%;  
 }
+/* Sub heading style that is Downtown or in nature */
 
 .content-2{
     color:#969191;
@@ -45,12 +50,14 @@ nav ul li a{
     margin-left: 5%;
 }
 
+/* Filter section form organized  */
 form {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 5%;
 }
+/* Search icon before search box organized with different style */
 
 .fa-location-dot{
   padding-top: 30px;
@@ -64,7 +71,7 @@ form {
   border-color: rgb(239, 244, 235);
   border: 0.5px solid #c4a7a7;        
 }
-
+/* searh button is designed  */
   button {
     width: 100px;
     height: 50px;
@@ -79,7 +86,9 @@ form {
     border-bottom-right-radius: 10px;
     border: 0.5px solid #9fc5f3;
       }
-  
+
+      
+  /* Four filter icon circle style buttons style  */
   .FilterIconCircleButton{
   height: 40px;
   width: 40px;
@@ -87,11 +96,13 @@ form {
   background-color: rgb(131, 188, 246);
   }
  
+  /* 4 different filters organized into a form so added some style */
   .Form-1{
-
   padding-top: 20px;
   flex-wrap: wrap;
   }
+
+/* Top search box organized with style  */
 
   input[type=text] {
     font-size: 16px;
@@ -101,6 +112,8 @@ form {
     margin-top: 10px;
 
   }
+
+  /* Added style when move hover for both search and text boxes */
   input[type="text"]:hover {
     border: 2px solid black;
   }
@@ -108,6 +121,7 @@ form {
     border: 1px solid black;
   }
 
+  /* Four filter search boxes added some style  */
   input[type=search] {
     margin-top: 10px;
     font-size: 16px;
@@ -121,11 +135,14 @@ form {
     align-items: center;
   }
 
+  /* place holder text style for top search bar placeholder text */
   .search-input-1::placeholder{
   color: black;
   font-weight: 600;
   font-weight: bold;
   }
+
+    /* place holder text style for bottom search bar placeholder text*/
 
 .search-input2::placeholder{
   color: black;
@@ -133,9 +150,8 @@ form {
   font-weight: bold;
 }
 
-
+/* there are 4 filter sections and organized their secitons into one div so some style applied  */
  .FilterSearchContainer-1,.FilterSearchContainer-2,.FilterSearchContainer-3,.FilterSearchContainer-4{
-
   width: 200px;
   height: 45px;
   display: flex;
@@ -257,7 +273,7 @@ width: 500px;
 
 
 .FirstimageTextSet{
-  padding: 10px;
+  padding: 25px;
 }
 
 .SecondimageTextSet{
@@ -309,7 +325,7 @@ width: 500px;
     border-width: 1px;
     border-radius: 20px;
     margin-left: 30px;
-    margin-top: 35px;
+    margin-top: 45px;
  } 
 
 .SecondFlexRowOneImage-1{
@@ -318,7 +334,7 @@ width: 500px;
   border-bottom-left-radius: 15px;
   width: 150px;
   height: 100px;
-  padding-top: 5%;
+  padding-top: 15%;
   margin-left: 25px;
 }
 
