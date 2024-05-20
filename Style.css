@@ -1,5 +1,14 @@
 
 /* Top navigation code to organize navigation items*/
+
+
+*{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 nav{
     padding: 10px 0;
     display: flex;
@@ -7,30 +16,37 @@ nav{
 }
 
 .logo{
-  padding-top: 30px;
+    padding-top: 10px;
     width: 85px;
-    height: 65px;
+    height: 55px;
     margin-left: 3%;
     padding-bottom: 20px;
 }
 
 nav ul{
-  padding-top: 30px;
+  padding-top: 10px;
   list-style-type: none;
   margin-right: 4%;
-
 }
 
 nav ul li{
     display: inline-block;
     margin: 12px 12px;
+    
 }
+
+nav ul li:hover{
+  border-top: 2px solid blue;
+  border-width: 3px;
+  padding-top: 10px;
+  
+     }
 
 nav ul li a{
     text-decoration: none;
     color: #0844de;
     font-weight: 400;
-    margin: 20px;  
+    /* margin: 20px;   */
 }
 
 /* Top heading style that is Find a place for your dream vacation */
@@ -51,7 +67,7 @@ nav ul li a{
 }
 
 /* Filter section form organized  */
-form {
+#form {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -90,9 +106,9 @@ form {
       
   /* Four filter icon circle style buttons style  */
   .FilterIconCircleButton{
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  border-radius: 55%;
   background-color: rgb(131, 188, 246);
   }
  
@@ -100,7 +116,13 @@ form {
   .Form-1{
   padding-top: 20px;
   flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5%;
   }
+
+
 
 /* Top search box organized with style  */
 
@@ -144,10 +166,11 @@ form {
 
     /* place holder text style for bottom search bar placeholder text*/
 
-.search-input2::placeholder{
+.search-input2{
   color: black;
   font-weight: 600;
   font-weight: bold;
+  margin-left: 10px;
 }
 
 /* there are 4 filter sections and organized their secitons into one div so some style applied  */
@@ -457,7 +480,7 @@ width: 500px;
     /* use flexbox for footer as well is recommended by mentor */
    
     .footer {
-      font-family: acumin-pro, system-ui, sans-serif;
+      /* font-family: acumin-pro, system-ui, sans-serif; */
       margin: 0;
       display: flex;
       font-size: 14px;
@@ -493,6 +516,7 @@ width: 500px;
       display: flex;
       margin-left: 5%;
       flex-direction: row;
+      max-width: 1000;
     }
     
     .footer__nav > * {
@@ -508,6 +532,8 @@ width: 500px;
       column-count: 1;
       column-gap: 1.25em;
     }
+
+
      
     @media screen and (max-width: 992px){
       .footer__nav > * {
@@ -527,6 +553,7 @@ width: 500px;
       .nav__ul a {
         color: #010101;
       }
+      
     }   
 
     @media (max-width: 992px) {
@@ -540,7 +567,7 @@ width: 500px;
         margin-top: 20px;
         color: #0b0a0a;
         font-size:20px;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
         font-weight: 500;
         line-height: 3em;
     }
@@ -591,10 +618,17 @@ width: 500px;
     .logo{
         margin: 0 auto;
         padding: 0;
-        width: 125px;
-        height: 90px;
+        width: 80px;
+        height: 60px;
+        /* image-resolution: 1000; */
 
       }
+
+      nav ul li:hover{
+        border-bottom: 2px solid blue;
+        border-width: 5px;
+        border-top: none;
+           }
 
     nav ul li{
         flex: 1;
@@ -605,10 +639,7 @@ width: 500px;
 
       }
 
-      nav ul li:hover{
-        border-bottom: 2px solid blue;
-        border-width: 5px;
-           }
+      
         
       nav ul{
         display: flex;
@@ -630,4 +661,6 @@ width: 500px;
      .bottomimage-1, .bottomimage-2, .bottomimage-3, .bottomimage-4,.bottomimage-5, .bottomimage-6{
         height: 300px;
       }
+
+      /*media query to affect just the cards*/
     }
