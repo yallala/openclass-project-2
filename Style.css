@@ -599,9 +599,9 @@ width: 500px;
       margin-left: 5px;
 
     }
-    .FilterSearchContainer-1{
+    /* .FilterSearchContainer-1{
       padding: 10px;
-    }
+    } */
     
     .Form-1{
       row-gap: 10px;
@@ -618,7 +618,7 @@ width: 500px;
     .logo{
         margin: 0 auto;
         padding: 0;
-        width: 80px;
+        width: 90px;
         height: 60px;
         /* image-resolution: 1000; */
 
@@ -638,8 +638,6 @@ width: 500px;
       
 
       }
-
-      
         
       nav ul{
         display: flex;
@@ -662,5 +660,22 @@ width: 500px;
         height: 300px;
       }
 
+      .FilterSearchContainer-1,.FilterSearchContainer-2,.FilterSearchContainer-3,.FilterSearchContainer-4{
+        width: 180px;
+        height: 49px;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        background:#f4f6f9;
+        border: 1px solid #5c5959;
+       }
+      
+       .FilterIconCircleButton{
+        height: 50px;
+        width: 50px;
+        border-radius: 55%;
+        background-color: rgb(131, 188, 246);
+        
+        }
       /*media query to affect just the cards*/
     }
