@@ -129,7 +129,7 @@ nav ul li a{
   input[type=text] {
     font-size: 16px;
     height: 7px;
-    border: 2px solid #c4a7a7;
+    border: 0.5px solid #190303;
     padding: 20px;
     margin-top: 10px;
 
@@ -242,7 +242,15 @@ nav ul li a{
   width: 400px;
   height: 150px;
   border-radius: 20px;
+  object-fit: cover;
 }
+
+/* img {
+  display: block;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+} */
 
 .FirstFlexFirstImageSet,.FirstFlexSecondImageSet,.FirstFlexThirdImageSet,.FirstFlexFourthImageSet,.FirstFlexFifthImageSet,.FirstFlexSixthImageSet{
   background-color: white;
@@ -359,6 +367,7 @@ width: 500px;
   height: 100px;
   padding-top: 5%;
   margin-left: 25px;
+  object-fit: cover;
 }
 
 .SecondFlexRowOneImage-2{
@@ -368,6 +377,7 @@ width: 500px;
   width: 180px;
   height: 100px;
   padding-top: 3%;
+  object-fit: cover;
 }
 
 .SecondFlexRowOneImage-3{
@@ -377,7 +387,7 @@ width: 500px;
   width: 160px;
   height: 100px;
   padding-top: 3%;
-
+  object-fit: cover;
 }
 
 .heading1{
@@ -448,6 +458,7 @@ width: 500px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     height: 410px;
+    object-fit: cover;
   } 
 
   
@@ -655,9 +666,16 @@ width: 500px;
      .oldporttext{
       font-size: 20px;
      }
-
+     .FirstGridImage-1,.FirstGridImage-2,.FirstGridImage-3,.FirstGridImage-4,.FirstGridImage-5,.FirstGridImage-6{
+      width: 400px;
+      height: 150px;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+    
      .bottomimage-1, .bottomimage-2, .bottomimage-3, .bottomimage-4,.bottomimage-5, .bottomimage-6{
         height: 300px;
+        object-fit: cover;
       }
 
       .FilterSearchContainer-1,.FilterSearchContainer-2,.FilterSearchContainer-3,.FilterSearchContainer-4{
@@ -668,6 +686,7 @@ width: 500px;
         border-radius: 30px;
         background:#f4f6f9;
         border: 1px solid #5c5959;
+        
        }
       
        .FilterIconCircleButton{
@@ -676,6 +695,37 @@ width: 500px;
         border-radius: 55%;
         background-color: rgb(131, 188, 246);
         
+        }
+
+        .SecondFlexRowOneImage-1{
+          display: flex;
+          border-top-left-radius: 30px;
+          border-bottom-left-radius: 15px;
+          width: 150px;
+          height: 100px;
+          padding-top: 5%;
+          margin-left: 25px;
+          object-fit: cover;
+        }
+        
+        .SecondFlexRowOneImage-2{
+          display: flex;
+          border-top-left-radius: 20%;
+          border-bottom-left-radius: 15%;
+          width: 180px;
+          height: 100px;
+          padding-top: 3%;
+          object-fit: cover;
+        }
+        
+        .SecondFlexRowOneImage-3{
+          display: flex;
+          border-top-left-radius: 20%;
+          border-bottom-left-radius: 15%;
+          width: 160px;
+          height: 100px;
+          padding-top: 3%;
+          object-fit: cover;
         }
       /*media query to affect just the cards*/
     }
