@@ -1,16 +1,7 @@
 
 /* Top navigation code to organize navigation items*/
 
-.Hrefclass{
-  color: black;
-  
-}
 
-.Hrefclass:hover{
-text-decoration: none;
-color: black;
-
-}
 *{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -137,17 +128,16 @@ nav ul li a{
 
   input[type=text] {
     font-size: 16px;
-    height: 7px;
+    height: 8px;
     border: 0.5px solid #190303;
     padding: 20px;
     margin-top: 10px;
     border-radius: 0;
-
   }
 
   /* Added style when move hover for both search and text boxes */
   input[type="text"]:hover {
-    border: 2px solid black;
+    border: 1px solid black;
   }
   input[type="search"]:hover {
     border: 1px solid black;
@@ -271,6 +261,16 @@ nav ul li a{
   padding: 20px;
 }
 
+/* first grid href's design  */
+.Hrefclass{
+  color: black;
+  
+}
+
+.Hrefclass:hover{
+  text-decoration: none;
+  color: black;
+}
 
 
  /* Flex-2 code */
@@ -289,7 +289,7 @@ nav ul li a{
 
 
 .fa-solid{
-  color: blue;
+  color: rgba(30, 56, 227, 0.821);
 }
 
 .fa-regular{
@@ -611,7 +611,8 @@ width: 500px;
     .SecondGridContainer{
       flex-direction: row;
       margin-top: 20px;
-      width: 100%;
+      width: 97%;
+      margin-bottom: 20px;
      }
     .ThirdGridContainer{
       flex-direction: column;
@@ -622,6 +623,7 @@ width: 500px;
       flex-direction: column-reverse;
       height: max-content;
       margin-left: 5px;
+      padding-bottom: 20px;
 
     }
     /* .FilterSearchContainer-1{
@@ -651,22 +653,25 @@ width: 500px;
 
       nav ul li:hover{
         border-bottom: 2px solid blue;
-        border-width: 5px;
+        border-width: 2px;
         border-top: none;
+        /* padding: 10px; */
+        display: flex;
+        height: 100%;
            }
 
     nav ul li{
         flex: 1;
         text-align: center;
         margin: 0;
-        padding: 20px;
-      
-
+        padding: 10px;
+        height: 100%;
       }
-        
+      
       nav ul{
         display: flex;
         margin: 0;
+        padding: none;
       }
 
       .content-2{
@@ -676,6 +681,7 @@ width: 500px;
       nav ul li a{
         font-size: 25px;
         color: black;
+        padding: none;
     }
      .oldporttext{
       font-size: 20px;
@@ -693,6 +699,7 @@ width: 500px;
       }
 
       .FilterSearchContainer-1,.FilterSearchContainer-2,.FilterSearchContainer-3,.FilterSearchContainer-4{
+        /* margin-bottom: 20px; */
         width: 180px;
         height: 49px;
         display: flex;
@@ -741,5 +748,7 @@ width: 500px;
           padding-top: 3%;
           object-fit: cover;
         }
+
+      
       /*media query to affect just the cards*/
     }
