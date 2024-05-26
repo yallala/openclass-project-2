@@ -21,6 +21,7 @@ nav{
     height: 55px;
     margin-left: 3%;
     padding-bottom: 20px;
+       
 }
 
 nav ul{
@@ -78,7 +79,7 @@ nav ul li a{
 .fa-location-dot{
   padding-top: 30px;
   padding-left: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   background-color:rgb(186, 181, 181);
   border-top-left-radius: 20%;
   border-bottom-left-radius: 20%;
@@ -90,7 +91,7 @@ nav ul li a{
 /* searh button is designed  */
   button {
     width: 100px;
-    height: 50px;
+    height: 60px;
     background-color: #0a3aea;
     border: none;
     color: white;
@@ -101,6 +102,10 @@ nav ul li a{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border: 0.5px solid #9fc5f3;
+      }
+/* hide search icon in regular view */
+      .fas{
+        display: none;
       }
 
       
@@ -128,17 +133,21 @@ nav ul li a{
 
   input[type=text] {
     font-size: 16px;
-    height: 8px;
+    height: 17px;
     border: 0.5px solid #190303;
     padding: 20px;
     margin-top: 10px;
     border-radius: 0;
   }
-
+/* .fas{
+  display: none;
+} */
   /* Added style when move hover for both search and text boxes */
   input[type="text"]:hover {
     border: 1px solid black;
   }
+
+
   input[type="search"]:hover {
     border: 1px solid black;
   }
@@ -156,7 +165,9 @@ nav ul li a{
     border-radius: 28px;
     align-items: center;
   }
-
+/* .fa-search{
+  display: none;
+} */
   /* place holder text style for top search bar placeholder text */
   .search-input-1::placeholder{
   color: black;
@@ -338,6 +349,7 @@ nav ul li a{
   }
 
 .heading1{
+  padding-top: 5%;
 font-weight: 700;
 font-size: 200;
 }
@@ -515,21 +527,24 @@ font-size: 200;
     @media (max-width: 992px) {
       .nav__ul a {
         color: #0b0a0a;
-        font-size:large;
-        font-weight: 200;
+        font-size:larger;
+        font-weight: 400;
     }
 
       .nav__title {
-        margin-top: 20px;
+        /* margin-top: 20px; */
         color: #0b0a0a;
-        font-size:20px;
+        font-size:25px;
         /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
-        font-weight: 500;
+        font-weight: 600;
         line-height: 3em;
+        /* padding-bottom: none; */
+        /* padding-left: none; */
     }
       
       .footer li {
-        line-height: 4em;
+        line-height: 2em;
+        /* margin-left: 1%; */
         }
       
     .FirstGridContainer{
@@ -575,22 +590,36 @@ font-size: 200;
       }
 
     .logo{
-        margin: 0 auto;
+        /* margin: 0 auto;
         padding: 0;
         width: 90px;
-        height: 60px;
+        height: 60px; */
+        max-width: 100%;
+        height:auto;
+        margin:auto;
         /* image-resolution: 1000; */
-
       }
 
       nav ul li:hover{
         border-bottom: 2px solid blue;
-        border-width: 2px;
+        border-width: 3px;
         border-top: none;
         /* padding: 10px; */
         display: flex;
-        height: 100%;
+        height: 100%; 
+        color: blue;
            }
+/* 
+.hover-element:hover ~ .AccomLink{
+
+  color: blue;
+
+} */
+
+           /* a:hover{
+            color: blue;
+
+           } */
 
     nav ul li{
         flex: 1;
@@ -617,10 +646,11 @@ font-size: 200;
     }
      .oldporttext{
       font-size: 20px;
+      /* width: 388px; */
      }
     
      .bottomimage-1, .bottomimage-2, .bottomimage-3, .bottomimage-4,.bottomimage-5, .bottomimage-6{
-        height: 300px;
+        height: 240px;
         object-fit: cover;
       }
 
@@ -680,7 +710,8 @@ font-size: 200;
           height: 820px;
           width: 450px;
           /* padding: 15px; */
-          padding-left: 3% ;
+          /* padding-left: 3% ; */
+          padding-right: 5%;
         }
         
         .SecondFlexFirstSet,.SecondFlexSecondSet,.SecondFlexThirdSet{
@@ -747,7 +778,58 @@ padding-left: 2%;
   .fa-solid{
     padding-left: 7px;
   }
+  .fa-location-dot{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    background-color:rgb(186, 181, 181);
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    width: 30px;
+    padding-left: 20px;
+    border-color: rgb(239, 244, 235);
+    border: 0.5px solid #c4a7a7;        
+  }
 
-  
-      /*media query to affect just the cards*/
+ 
+
+  /* .FullviewSearchIcon{
+
+  }
+
+  .fa-search{
+    padding: 25%;
+
+
+  } */
+  /* searh button is designed  */
+
+
+  .mobile-button i {
+    color: #ffffff; /* Icon color */
+    font-size: 18px;
     
+}
+
+.FullviewSearchIcon{
+  display:none;
+} 
+
+.fas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #135ae7; /* Button background color */
+  border: none;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+  color: white;
+}
+}
