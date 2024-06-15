@@ -16,7 +16,7 @@ nav {
 
 .logo {
   padding-top: 10px;
-  width: 85px;
+  /* width: 85px; */
   height: 55px;
   margin-left: 3%;
   padding-bottom: 20px;
@@ -42,7 +42,7 @@ nav ul li:hover {
 
 nav ul li a {
   text-decoration: none;
-  color: #0844de;
+  color: black;
   font-weight: 400;
   margin: 35px;
   display: inline-block;
@@ -75,19 +75,29 @@ nav ul li a {
 }
 
 /* Search icon before search box organized with different style */
+/* i = tag. To be more specific */
+
+i.map-dot {
+  color: black;
+}
+
 
 .fa-location-dot {
   padding-top: 30px;
   padding-left: 10px;
   padding-bottom: 30px;
-  background-color: rgb(186, 181, 181);
-  border-top-left-radius: 20%;
-  border-bottom-left-radius: 20%;
-  width: 30px;
+  /* background-color: rgb(186, 181, 181); */
+  background-color: #F2F2F2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 45px;
   padding-left: 20px;
-  border-color: rgb(239, 244, 235);
-  border: 0.5px solid #c4a7a7;
+  /* border-color: rgb(239, 244, 235); */
+  /* border: 0.5px solid #c4a7a7; */
+  /* color: black; */
 }
+
+
 
 /* searh button is designed  */
 button {
@@ -101,9 +111,12 @@ button {
   text-decoration: none;
   display: inline-block;
   border-left: none;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   border: 0.5px solid #9fc5f3;
+  font-size: large;
+  font-weight: bold;
+
 }
 
 /* hide search icon in regular view */
@@ -115,14 +128,15 @@ button {
 
 /* Four filter icon circle style buttons style  */
 .FilterIconCircleButton {
-  height: 45px;
-  width: 45px;
+  height: 50px;
+  width: 50px;
   border-radius: 55%;
   /* background-color: rgb(131, 188, 246); */
   background-color: #DEEBFF;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: -20px;
 }
 
 /* 4 different filters organized into a form so added some style */
@@ -145,17 +159,19 @@ button {
 /* Top search box organized with style  */
 
 input[type=text] {
-  font-size: 16px;
+  font-size: 20px;
   height: 17px;
-  border: 0.5px solid #190303;
+  /* border: 0.5px solid #190303; */
   padding: 20px;
   margin-top: 10px;
   border-radius: 0;
+  border-color: #F2F2F2;
 }
 
 /* .fas{
   display: none;
 } */
+
 /* Added style when move hover for both search and text boxes */
 input[type="text"]:hover {
   border: 1px solid black;
@@ -186,31 +202,39 @@ input[type=search] {
 /* place holder text style for top search bar placeholder text */
 .search-input-1::placeholder {
   color: black;
-  font-weight: 600;
+  /* font-weight: 600; */
   font-weight: bold;
 }
+
+/* .search-input-1{
+font-size: xx-large;
+font-weight: bold;
+
+} */
 
 /* place holder text style for bottom search bar placeholder text*/
 
 .search-input2 {
   color: black;
-  font-weight: 600;
-  font-weight: bold;
+  /* font-weight: 600; */
+  font-weight:500;
   margin-left: 10px;
+  font-size:large;
+  font-weight: 700;
 }
 
 /* there are 4 filter sections and organized their secitons into one div so some style applied  */
-.FilterSearchContainer-1,
-.FilterSearchContainer-2,
-.FilterSearchContainer-3,
-.FilterSearchContainer-4 {
+.FilterSearchContainer-1 {
   width: 200px;
   height: 45px;
   display: flex;
   align-items: center;
   border-radius: 28px;
-  background: #f4f6f9;
-  border: 1px solid #5c5959;
+  border-top-right-radius: 28px;
+  /* margin-left: -20px; */
+  background: white;
+  border: 1px solid #D9D9D9;
+  /* padding-left: -50px; */
 }
 
 .SearchResultsCountText {
@@ -336,6 +360,7 @@ input[type=search] {
 } */
 
 
+
 .fa-solid {
   /* color: rgba(30, 56, 227, 0.821); */
   color: #0065FC;
@@ -348,7 +373,7 @@ input[type=search] {
 .SecondGridContainer {
   /* background-color: rgba(90, 96, 96, 0.11);
  */
- background-color: #F2F2F2;
+  background-color: #F2F2F2;
   border-radius: 20px;
   margin-left: 15px;
   height: 685px;
@@ -661,13 +686,14 @@ input[type=search] {
   }
 
   nav ul li:hover {
-    border-bottom: 2px solid blue;
-    border-width: 3px;
-    border-top: none;
+    border-bottom: 2px solid #0065FC;
+    border-width: 1px;
+    /* border-top: none; */
     /* padding: 10px; */
     display: flex;
     height: 100%;
     color: blue;
+    /* padding-top: 10px; */
   }
 
   /* 
@@ -686,14 +712,16 @@ input[type=search] {
     flex: 1;
     text-align: center;
     margin: 0;
-    padding: 10px;
+    /* padding: 10px; */
     height: 100%;
+    /* padding-bottom: 10px; */
   }
 
   nav ul {
     display: flex;
     margin: 0;
     /* padding: none; */
+    padding-top: 10px;
   }
 
   .content-2 {
@@ -736,14 +764,7 @@ input[type=search] {
     border: 1px solid #5c5959;
   }
 
-  .FilterIconCircleButton {
-    height: 50px;
-    width: 50px;
-    border-radius: 55%;
-    /* background-color: rgb(131, 188, 246); */
-    background-color: #DEEBFF;
 
-  }
 
   .FirstFlexFirstImageSet,
   .FirstFlexSecondImageSet,
