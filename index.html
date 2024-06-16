@@ -75,6 +75,7 @@
   <!-- Then moved onto to the 4 different filter options. Organized under a form-->
 
   <form class="Form-1">
+    <div class = "filter-area"> 
     <h4 class="FilterTitle"> Filters</h4>
 
     <!-- &nbsp;  &nbsp; -->
@@ -88,9 +89,9 @@
       </div>
     </a>
 
-    &nbsp; &nbsp;
+    <!-- &nbsp; &nbsp; -->
     <a href="#" class="Hrefclass">
-      <div class="FilterSearchContainer-1">
+      <div class="FilterSearchContainer-2">
         <div class="FilterIconCircleButton">
           <i class="fa-solid fa-child-reaching fa-xl" style="color: #0863eb;"></i>
         </div>
@@ -99,9 +100,9 @@
       </div>
     </a>
 
-    &nbsp; &nbsp;
+    <!-- &nbsp; &nbsp; -->
     <a href="#" class="Hrefclass">
-      <div class="FilterSearchContainer-1">
+      <div class="FilterSearchContainer-3">
         <div class="FilterIconCircleButton">
           <i class="fa-solid fa-heart IconStyling fa-xl" style="color: #0863eb;"></i>
         </div>
@@ -110,9 +111,9 @@
       </div>
     </a>
 
-    &nbsp; &nbsp;
+    <!-- &nbsp; &nbsp; -->
     <a href="#" class="Hrefclass">
-      <div class="FilterSearchContainer-1">
+      <div class="FilterSearchContainer-4">
         <div class="FilterIconCircleButton">
           <i class="fa-solid fa-dog fa-xl" style="color: #0863eb;"></i>
         </div>
@@ -120,15 +121,20 @@
         <span class="search-input2"> Pets allowed </span>
       </div>
     </a>
+  </div>
   </form>
   <!-- The following code is about the text and icon right beneath the filters-->
   <div class="SearchResultsCountText">
-    <div>
-      <i class="fa-solid fa-circle-info fa-2xl" style="color: #c7c5c5;"></i>
+    <div class = "info-icon-frame">
+      <i class="fa-solid fa-info fa-regular info-icon "></i>
+      <!-- <i class="fa-solid fa-circle-info fa-2xl info-icon"></i> -->
     </div>
-    &nbsp; &nbsp;
     <p class="Morethan500Text"> More than 500 accommodations are available in this <br> city" </p>
+
   </div>
+ 
+
+ 
 
   <!-- First and second grid code organized into one main div lass because it is easy to organize them side by side -->
 
@@ -143,7 +149,6 @@
         <!--First Grid code starts here -->
         <!-- First image code -->
 
-
         <a href="#" class="Hrefclass">
           <div class="FirstFlexFirstImageSet">
             <img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="FirstGridImage-1"
@@ -153,18 +158,61 @@
               <!-- &nbsp; &nbsp; -->
               <p class="FirstGrid-heading1"> Auberge la Cannebière</p>
               <p class="FirstGrid-heading2">Night starting at 25€</p>
-              <div>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-regular fa-star fa-lg"></i>
+              <div class =stars-class>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <!-- <i class="fa-solid fa-star" style="color: #D9D9D9;"></i> -->
+                <i class="fa-solid fa-star" style="color: #D9D9D9;"></i>
               </div>
             </div>
           </div>
         </a>
 
         <!-- Second image code -->
+  <!-- </div> -->
+  <a href="#" class="Hrefclass">
+    <!-- <div class="FirstFlexColumnTwo"> -->
+    <!-- &nbsp; &nbsp; -->
+    <div class="FirstFlexThirdImageSet">
+      <img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" class="FirstGridImage-3"
+        alt="FirstGridImage-3">
+      <div>
+        <!-- &nbsp; &nbsp; -->
+        <p class="FirstGrid-heading1"> Hôtel du port</p>
+        <p class="FirstGrid-heading2">Night starting at 52€</p>
+        <div class =stars-class>
+          <i class="fa-solid fa-star fa-sm"></i>
+          <i class="fa-solid fa-star fa-sm"></i>
+          <i class="fa-solid fa-star fa-sm"></i>
+          <i class="fa-solid fa-star fa-sm"></i>
+          <i class="fa-solid fa-star fa-sm"></i>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+  </a>
+  <a href="#" class="Hrefclass">
+    <div class="FirstFlexFifthImageSet">
+
+      <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="FirstGridImage-5"
+        alt="FirstGridImage-5">
+      <div>
+        <!-- &nbsp; &nbsp; -->
+        <p class="FirstGrid-heading1"> Les mouettes Hotel</p>
+        <p class="FirstGrid-heading2">Night starting at 76€</p>
+        <div class =stars-class>
+          <i class="fa-solid fa-star fa-sm"></i>
+          <i class="fa-solid fa-star fa-sm"></i>
+          <i class="fa-solid fa-star fa-sm"></i>
+          <i class="fa-solid fa-star fa-sm"></i>
+          <i class="fa-solid fa-star" style="color: #D9D9D9;"></i>
+        </div>
+      </div>
+    </div>
+  </a>
+
 
         <a href="#" class="Hrefclass">
           <div class="FirstFlexSecondImageSet">
@@ -174,42 +222,17 @@
               <!-- &nbsp; &nbsp; -->
               <p class="FirstGrid-heading1"> Hôtel de la mer</p>
               <p class="FirstGrid-heading2"> Night starting at 46€</p>
-              <div>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-regular fa-star fa-lg"></i>
-                <i class="fa-regular fa-star fa-lg"></i>
+              <div class =stars-class>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star" style="color: #D9D9D9;"></i>
+                <i class="fa-solid fa-star" style="color: #D9D9D9;"></i>
               </div>
             </div>
           </div>
         </a>
 
-
-        <!-- Third image code -->
-
-        <!-- </div> -->
-        <a href="#" class="Hrefclass">
-          <!-- <div class="FirstFlexColumnTwo"> -->
-          <!-- &nbsp; &nbsp; -->
-          <div class="FirstFlexThirdImageSet">
-            <img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" class="FirstGridImage-3"
-              alt="FirstGridImage-3">
-            <div>
-              <!-- &nbsp; &nbsp; -->
-              <p class="FirstGrid-heading1"> Hôtel du port</p>
-              <p class="FirstGrid-heading2">Night starting at 52€</p>
-              <div>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-              </div>
-            </div>
-          </div>
-          <!-- </div> -->
-        </a>
         <a href="#" class="Hrefclass">
           <div class="FirstFlexFourthImageSet">
             <img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class="FirstGridImage-4"
@@ -218,37 +241,22 @@
               <!-- &nbsp; &nbsp; -->
               <p class="FirstGrid-heading1"> Auberge Le Panier</p>
               <p class="FirstGrid-heading2">Night starting at 23€</p>
-              <div>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-regular fa-star fa-lg"></i>
+              <div class =stars-class>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star" style="color: #D9D9D9;"></i>
               </div>
             </div>
           </div>
         </a>
+        <!-- Third image code -->
 
-        <a href="#" class="Hrefclass">
-          <div class="FirstFlexFifthImageSet">
+      
+        
 
-            <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="FirstGridImage-5"
-              alt="FirstGridImage-5">
-            <div>
-              <!-- &nbsp; &nbsp; -->
-              <p class="FirstGrid-heading1"> Les mouettes Hotel</p>
-              <p class="FirstGrid-heading2">Night starting at 76€</p>
-              <div>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-regular fa-star fa-lg"></i>
-              </div>
-            </div>
-          </div>
-        </a>
-
+      
         <!-- Sixth image code -->
 
         <a href="#" class="Hrefclass">
@@ -259,12 +267,12 @@
               <!-- &nbsp; &nbsp; -->
               <p class="FirstGrid-heading1"> Hôtel chez Amina</p>
               <p class="FirstGrid-heading2">Night starting at 96€</p>
-              <div>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
+              <div class =stars-class>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
               </div>
 
             </div>
@@ -276,24 +284,14 @@
       </div>
     </div>
 
-
-
     <!-- Fourth image code -->
-
-
 
     <!-- <div class="FirstFlexColumnThree">
       &nbsp; &nbsp; -->
 
     <!-- Fifth image code -->
 
-
-
     <!-- </div> -->
-
-
-
-
 
     <!-- Flex-2 html code -->
 
@@ -302,7 +300,7 @@
     <div class="SecondGridContainer">
       <div>
         <p id="Most-Popular" class="Secondgridtoptext"> Most Popular </p>
-        <i class="fa-solid fa-star fa-fw fa-xl" style="color: #000000;"></i>
+        <i class="fa-solid fa-star fa-fw fa-xl secondgrid-solidstar" style="color: #000000;"></i>
       </div>
 
       <!-- 2nd Grid first image and sorrounds code -->
@@ -316,11 +314,11 @@
               <p class="heading1"> Morning Sun Hotel </p>
               <p class="heading2"> Night starting at 128€</p>
               <div class="SecondGridStars">
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
               </div>
             </div>
           </div>
@@ -335,11 +333,11 @@
               <p class="heading1"> Au cœur de l'eau Bed and Breakfast </p>
               <p class="heading2"> Night starting at 71€ </p>
               <div class="SecondGridStars">
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-regular fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star" style="color: #D9D9D9;"></i>
               </div>
             </div>
           </div>
@@ -353,13 +351,13 @@
               class="SecondFlexRowOneImage-3" alt="SecondFlexRowOne-1">
             <div class="ThirdimageTextSet">
               <p class="heading1"> Tout bleu et Blanc Hotel </p>
-              <p class="heading2">Night starting at 68€</p>
+              <p class="heading2"> Night starting at 68€</p>
               <div class="SecondGridStars">
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-regular fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star fa-sm"></i>
+                <i class="fa-solid fa-star" style="color: #D9D9D9;"></i>
               </div>
             </div>
           </div>
