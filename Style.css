@@ -1063,7 +1063,7 @@ font-weight: bold;
 
   .secondgrid-solidstar {
     position: relative;
-    margin-left:20%;
+    margin-left:35%;
     margin-top: 5%;
   }
 
@@ -1186,6 +1186,7 @@ font-weight: bold;
   display: flex;
   gap: 15px;
   flex-direction: column;
+  margin-left: 0%;
  }
 
   .search-input-1 {
@@ -1266,7 +1267,7 @@ font-weight: bold;
 
 
   .FilterSearchContainer-4 {
-    width: 195px;
+    width: 240px;
     height: 52px;
     display: flex;
     align-items: center;
@@ -1331,7 +1332,7 @@ font-weight: bold;
     border-radius: 20px;
     /* margin-left: 15px; */
     height: 670px;
-    /* width: auto; */
+    width: auto;
     /* padding: 20px; */
     /* row-gap: auto; */
     /* column-gap: auto; */
@@ -1376,7 +1377,7 @@ font-weight: bold;
 
 
   .SecondGridStars {
-    padding: 8px;
+    padding: 2px;
   }
 
   .content-1 {
@@ -1427,6 +1428,8 @@ font-weight: bold;
   }
   .Hrefclass-2{
     order:3;
+    /* padding-right: 10px; */
+    /* margin-right: 90px; */
   }
   .Hrefclass-3{
     order:2;
