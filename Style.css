@@ -10,8 +10,8 @@
   /* padding-top: 5px; */
 }
 
-body{
-  margin:auto;
+body {
+  margin: auto;
   /* padding: auto; */
 }
 
@@ -39,7 +39,7 @@ nav ul li {
   display: inline-block;
   /* margin: 12px 12px; */
   /* padding-top: 10px; */
-  
+
 
 }
 
@@ -52,15 +52,12 @@ nav ul li:hover {
   .AccomLink {
     color: #0065FC;
     margin-top: 32px;
-
   }
 
   .ActiLink {
     color: #0065FC;
     margin-top: 32px;
-
   }
-
 }
 
 nav ul li a {
@@ -180,8 +177,8 @@ button {
   gap: 20px;
 }
 
-.filter-area-2{
-margin-left: 20px;
+.filter-area-2 {
+  margin-left: 20px;
   display: flex;
   gap: 20px;
 }
@@ -269,6 +266,7 @@ input[type=search] {
   color: black;
   /* font-weight: 600; */
   font-weight: bold;
+  font-size: 16px;
 }
 
 /* .search-input-1{
@@ -290,16 +288,19 @@ font-weight: bold;
 
 /* there are 4 filter sections and organized their secitons into one div so some style applied  */
 
-.FilterSearchContainer-1:hover{
+.FilterSearchContainer-1:hover {
   background-color: #F2F2F2;
 }
-.FilterSearchContainer-2:hover{
+
+.FilterSearchContainer-2:hover {
   background-color: #F2F2F2;
 }
-.FilterSearchContainer-3:hover{
+
+.FilterSearchContainer-3:hover {
   background-color: #F2F2F2;
 }
-.FilterSearchContainer-4:hover{
+
+.FilterSearchContainer-4:hover {
   background-color: #F2F2F2;
 }
 
@@ -372,7 +373,7 @@ font-weight: bold;
   font-size: large;
   font-weight: 400;
   margin-left: 10px;
-  
+
 }
 
 .firstgridtoptext {
@@ -395,7 +396,7 @@ font-weight: bold;
 
 .ResultsHeading-3 {
   font-size: x-large;
-  padding-left: 7%;
+  padding-left: 4%;
   padding-top: 3%;
   font-weight: 600;
 }
@@ -463,9 +464,12 @@ font-weight: bold;
 
 
 /* first grid href's design  */
-.Hrefclass-1, .Hrefclass-2,.Hrefclass-3,.Hrefclass-4{
+.Hrefclass-1,
+.Hrefclass-2,
+.Hrefclass-3,
+.Hrefclass-4 {
   color: black;
-  
+
 }
 
 .Hrefclass-1:hover {
@@ -506,6 +510,7 @@ font-weight: bold;
   width: 500px;
   /* margin-bottom: 0px; */
   height: 30px;
+  /* margin-bottom: 0%; */
 }
 
 .secondgrid-toptext-and-star {
@@ -514,7 +519,7 @@ font-weight: bold;
   /* column-gap: 5px; */
   /* padding-right: 40px; */
   margin-right: 20px;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-left: 10%;
   /* margin-right: 10%; */
   flex-direction: row;
@@ -649,7 +654,7 @@ font-weight: bold;
   /* margin-left: 3%; */
   border-radius: 15px;
   margin-bottom: 5%;
-  margin:auto;
+  margin: auto;
   /* margin-left: 10%; */
 }
 
@@ -814,10 +819,10 @@ font-weight: bold;
     font-weight: 400;
   }
 
-  
 
-  body{
-    margin:auto;
+
+  body {
+    margin: auto;
     /* padding: auto; */
     padding-left: 0%;
     padding-right: 0%;
@@ -924,12 +929,10 @@ font-weight: bold;
     /* background-color: #0065FC; */
     .AccomLink {
       color: #0065FC;
-
     }
 
     .ActiLink {
       color: #0065FC;
-
     }
 
   }
@@ -1018,7 +1021,7 @@ font-weight: bold;
   .FirstFlexSixthImageSet {
     background-color: white;
     border-style: groove;
-    border-color: rgb(244, 232, 232);
+    border-color: #F2F2F2;
     border-width: 1px;
     border-radius: 20px;
     padding: 5px;
@@ -1063,7 +1066,7 @@ font-weight: bold;
 
   .secondgrid-solidstar {
     position: relative;
-    margin-left:35%;
+    margin-left: 35%;
     margin-top: 5%;
   }
 
@@ -1173,21 +1176,22 @@ font-weight: bold;
     font-weight: bold;
     margin-left: 20px;
   }
-  
+
 
   .filter-area-1 {
     display: flex;
     gap: 10px;
     /* flex-wrap: wrap; */
     flex-direction: row;
- }
- .filter-area-2{
-  margin-top: 15px;
-  display: flex;
-  gap: 15px;
-  flex-direction: column;
-  margin-left: 0%;
- }
+  }
+
+  .filter-area-2 {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    margin-left: 0%;
+  }
 
   .search-input-1 {
     width: 150px;
@@ -1202,11 +1206,11 @@ font-weight: bold;
     /* padding-right: 15px; */
   }
 
-/* .FilterSearchContainer-1{
+  /* .FilterSearchContainer-1{
 
   order:2;
 } */
-/* .firstfilter{
+  /* .firstfilter{
   order: 2;;
 } */
 
@@ -1321,7 +1325,7 @@ font-weight: bold;
     margin-left: 8%;
   }
 
-  
+
 
   .SecondGridContainer {
     /* background-color: rgba(90, 96, 96, 0.11);*/
@@ -1336,14 +1340,15 @@ font-weight: bold;
     /* padding: 20px; */
     /* row-gap: auto; */
     /* column-gap: auto; */
+    padding-left: 0%;
   }
-  
-  .secondgrid-solidstar {
+
+  /* .secondgrid-solidstar {
     position: relative;
     /* margin-left:1%; */
     /* margin-top: 5%; */
     /* margin-left: 20%; */
-  }
+  /* }  */
 
 
   .SecondFlexFirstSet,
@@ -1419,23 +1424,26 @@ font-weight: bold;
     text-wrap: nowrap;
     /* padding-left: 3; */
     /* flex-wrap: nowrap; */
-    
+
   }
 
 
-  .Hrefclass-1{
-    order:1;
+  .Hrefclass-1 {
+    order: 1;
   }
-  .Hrefclass-2{
-    order:3;
+
+  .Hrefclass-2 {
+    order: 3;
     /* padding-right: 10px; */
     /* margin-right: 90px; */
   }
-  .Hrefclass-3{
-    order:2;
+
+  .Hrefclass-3 {
+    order: 2;
   }
-  .Hrefclass-4{
-    order:4;
+
+  .Hrefclass-4 {
+    order: 4;
   }
 
 }
