@@ -1,12 +1,18 @@
 /* Top navigation code to organize navigation items*/
 
 
+
 * {
   font-family: "Raleway";
   /* font-optical-sizing: auto; */
   font-weight: 300;
   font-style: normal;
   /* padding-top: 5px; */
+}
+
+body{
+  margin:auto;
+  /* padding: auto; */
 }
 
 nav {
@@ -169,9 +175,9 @@ button {
 }
 
 .info-icon-frame {
-  height: 40px;
-  width: 40px;
-  border-radius: 55%;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
   /* background-color: rgb(131, 188, 246); */
   background-color: white;
   display: flex;
@@ -270,6 +276,20 @@ font-weight: bold;
 }
 
 /* there are 4 filter sections and organized their secitons into one div so some style applied  */
+
+.FilterSearchContainer-1:hover{
+  background-color: #F2F2F2;
+}
+.FilterSearchContainer-2:hover{
+  background-color: #F2F2F2;
+}
+.FilterSearchContainer-3:hover{
+  background-color: #F2F2F2;
+}
+.FilterSearchContainer-4:hover{
+  background-color: #F2F2F2;
+}
+
 .FilterSearchContainer-1 {
   width: 160px;
   height: 52px;
@@ -411,7 +431,7 @@ font-weight: bold;
   border-radius: 20px;
   padding: 5px;
   width: 250px;
-  height: 250px;
+  height: 210px;
 }
 
 .FirstGridImage-1,
@@ -421,7 +441,7 @@ font-weight: bold;
 .FirstGridImage-5,
 .FirstGridImage-6 {
   width: 520px;
-  height: 140px;
+  height: 120px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-fit: cover;
@@ -468,18 +488,28 @@ font-weight: bold;
 }
 
 .SecondGridContainer {
-  /* background-color: rgba(90, 96, 96, 0.11);
- */
+  /* background-color: rgba(90, 96, 96, 0.11);*/
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   background-color: #F2F2F2;
   border-radius: 20px;
   margin-left: 15px;
-  height: 720px;
+  /* height: 720px; */
   width: 450px;
-  padding: 10px;
+  /* padding: 20px; */
   /* row-gap: auto; */
   /* column-gap: auto; */
 }
 
+
+.SecondFlexRowOne {
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
 
 
 .SecondFlexFirstSet,
@@ -491,11 +521,11 @@ font-weight: bold;
   border-color: white;
   border-width: 1px;
   border-radius: 19px;
-  margin-left: 30px;
-  margin-top: 45px;
+  margin-left: 20px;
+  /* margin-top: 45px; */
   width: 360px;
-  height: 155px;
-  margin-right: 30px;
+  height: 150px;
+  margin-right: 20px;
 }
 
 .SecondFlexRowOneImage-1,
@@ -530,19 +560,21 @@ font-weight: bold;
 .FirstGrid-heading1 {
   font-weight: 600;
   font-size: large;
-  padding-top: 5%;
+  /* padding-top: 5%; */
   padding-left: 3%;
+  margin: 0;
 }
 
 .FirstGrid-heading2 {
   font-weight: 300;
   font-size: medium;
   padding-left: 3%;
+  /* margin:0; */
 }
 
-/* .SecondGridStars {
-  padding: 5px;
-} */
+.SecondGridStars {
+  padding: 10px;
+}
 
 .stars-class {
   padding-left: 3%;
@@ -559,14 +591,16 @@ font-weight: bold;
 
 
 .ThirdGridContainer {
-  padding-left: 30px;
+  /* padding-left: 30px; */
   display: flex;
   max-height: none;
   width: 92%;
   column-gap: 50px;
-  margin-left: 3%;
+  /* margin-left: 3%; */
   border-radius: 15px;
   margin-bottom: 5%;
+  margin:auto;
+  /* margin-left: 10%; */
 }
 
 
@@ -604,6 +638,8 @@ font-weight: bold;
   border-top-left-radius: 20px;
   height: 410px;
   object-fit: cover;
+  margin-left: 0.5%;
+  /* margin-right: 1%; */
 }
 
 
@@ -616,11 +652,11 @@ font-weight: bold;
 }
 
 .bottomimage-5 {
-  height: 250px;
+  height: 175px;
 }
 
 .bottomimage-6 {
-  height: 100px;
+  height: 175px;
 }
 
 .oldporttext {
@@ -728,12 +764,13 @@ font-weight: bold;
     font-weight: 400;
   }
 
-  * {
-    /* font-family: "Raleway";
-    /* font-optical-sizing: auto; */
-    /* font-weight: 300;
-    font-style: normal; */
-    /* padding-left: none;  */
+  
+
+  body{
+    margin:auto;
+    /* padding: auto; */
+    padding-left: 0%;
+    padding-right: 0%;
   }
 
   .nav__title {
@@ -765,6 +802,7 @@ font-weight: bold;
     height: max-content;
     padding-bottom: 20px;
     width: 95%;
+    background: #FFFFFF;
   }
 
   .ThirdGridContainer {
@@ -778,6 +816,8 @@ font-weight: bold;
     height: max-content;
     /* margin-left: 5px; */
     padding-bottom: 20px;
+    padding: 0;
+    margin: 0;
   }
 
   /* .FilterSearchContainer-1{
@@ -887,9 +927,6 @@ font-weight: bold;
     padding-top: 10px;
   }
 
-  .content-2 {
-    margin-bottom: 30px;
-  }
 
   nav ul li a {
     font-size: 25px;
@@ -965,12 +1002,6 @@ font-weight: bold;
   }
 
 
-  .firstgridtoptext {
-
-    font-size: large;
-    /* align-content: center; */
-    padding-left: 5%;
-  }
 
   .FirstGridContainer {
     /* height: 210px; */
@@ -982,7 +1013,8 @@ font-weight: bold;
 
   .secondgrid-solidstar {
     position: relative;
-    margin-left: 60%;
+    margin-left:20%;
+    margin-top: 5%;
   }
 
   .heading1 {
@@ -1110,14 +1142,6 @@ font-weight: bold;
   }
 
 
-  .content-1 {
-    padding-top: 10%;
-    font-size: 22px;
-    color: black;
-    font-weight: 600;
-    padding-left: 5%;
-    padding-bottom: 5%;
-  }
 
 
   .FilterIconCircleButton {
@@ -1220,26 +1244,28 @@ font-weight: bold;
     /* padding-right: 40px; */
     /* margin-right: 40px; */
     margin-top: 10%;
+    margin-left: 8%;
   }
 
-  .Secondgridtoptext {
-    font-size: 16px;
-    display: contents;
-    /* padding-top: 8%; */
-    /* padding-left: 20px; */
-    /* font-weight: 700; */
-    /* padding-right: 175px; */
-  }
-
+  
 
   .SecondGridContainer {
-    flex-direction: row;
-    /* margin-top: 10px; */
-    /* width: 97%; */
-    margin-bottom: 30px;
-    width: 350px;
-    /* height: 750px; */
+    /* background-color: rgba(90, 96, 96, 0.11);*/
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    /* margin-left: 15px; */
+    height: 670px;
+    /* width: auto; */
+    /* padding: 20px; */
+    /* row-gap: auto; */
+    /* column-gap: auto; */
   }
+  
+
+
 
   .SecondFlexFirstSet,
   .SecondFlexSecondSet,
@@ -1250,11 +1276,12 @@ font-weight: bold;
     border-color: white;
     border-width: 1px;
     border-radius: 19px;
-    margin-left: 2px;
-    margin-top: 20px;
-    width: 330px;
+    /* margin-left: 2px; */
+    /* margin-top: 20px; */
+    width: 300px;
     /* height: 155px; */
     /* margin-right: 30px; */
+    margin-left: 0%;
   }
 
   .SecondFlexRowOneImage-1,
@@ -1265,12 +1292,60 @@ font-weight: bold;
     border-bottom-left-radius: 30px;
     width: 140px;
     height: 130px;
-    padding: 3%;
+    /* padding: 1%; */
     object-fit: cover;
   }
 
-  body {
-    overflow-x: hidden;
+
+  .SecondGridStars {
+    padding: 8px;
   }
 
+  .content-1 {
+    padding-top: 10%;
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+    padding-left: 8%;
+    padding-bottom: 5%;
+  }
+
+  .content-2 {
+    margin-bottom: 30px;
+    padding-left: 10%;
+  }
+
+  .ResultsHeading-3 {
+    font-size: x-large;
+    padding-left: 3%;
+    padding-top: 3%;
+    font-weight: 600;
+  }
+
+  .firstgridtoptext {
+
+    font-size: 20px;
+    padding-left: 3%;
+    padding-top: 9%;
+    font-weight: 600;
+  }
+
+  .Secondgridtoptext {
+    font-size: x-large;
+    display: contents;
+    /* padding-top: 8%; */
+    /* padding-left: 20px; */
+    /* font-weight: 700; */
+    /* padding-right: 175px; */
+    text-wrap: nowrap;
+    /* padding-left: 3; */
+    /* flex-wrap: nowrap; */
+    
+    
+  }
+
+/* 
+  .acivities{
+ padding-left: 5%;
+  } */
 }
