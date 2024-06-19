@@ -170,13 +170,22 @@ button {
   font-size: large;
   padding-top: 10px;
   font-weight: bold;
+  margin-left: 80px;
 }
+
 
 .filter-area-1 {
 
   display: flex;
   gap: 20px;
 }
+
+.filter-area-2{
+margin-left: 20px;
+  display: flex;
+  gap: 20px;
+}
+
 
 .info-icon-frame {
   height: 30px;
@@ -380,7 +389,7 @@ font-weight: bold;
   font-size: large;
   padding-top: 30px;
   font-weight: 800;
-  /* padding-left: 5%; */
+  padding-left: 5%;
 
 }
 
@@ -404,8 +413,8 @@ font-weight: bold;
 .accommodation-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  padding-left: 4%;
+  gap: 40px;
+  padding-left: 6%;
 }
 
 .FirstGridContainer {
@@ -486,11 +495,30 @@ font-weight: bold;
 
 .Secondgridtoptext {
   font-size: 25px;
-  display: inline-block;
-  padding-top: 8%;
-  padding-left: 20px;
-  font-weight: 700;
-  padding-right: 175px;
+  /* display: inline-block; */
+  /* padding-top: 8%; */
+  /* padding-left: 10px; */
+  /* font-weight: 700; */
+  /* padding-right: 10px; */
+  /* margin-right: 10px; */
+  /* padding-right: 175px; */
+  /* margin-left: 10px; */
+  width: 500px;
+  /* margin-bottom: 0px; */
+  height: 30px;
+}
+
+.secondgrid-toptext-and-star {
+
+  display: flex;
+  /* column-gap: 5px; */
+  /* padding-right: 40px; */
+  margin-right: 20px;
+  margin-top: 5%;
+  margin-left: 10%;
+  /* margin-right: 10%; */
+  flex-direction: row;
+  /* margin-bottom: 1%; */
 }
 
 /* .fa-fw{
@@ -518,7 +546,7 @@ font-weight: bold;
   border-radius: 20px;
   margin-left: 15px;
   /* height: 720px; */
-  width: 350px;
+  width: 400px;
   /* padding: 20px; */
   /* row-gap: auto; */
   /* column-gap: auto; */
@@ -545,8 +573,8 @@ font-weight: bold;
   border-radius: 19px;
   margin-left: 20px;
   /* margin-top: 45px; */
-  width: 360px;
-  height: 150px;
+  width: 340px;
+  /* height: 150px; */
   margin-right: 20px;
 }
 
@@ -1025,10 +1053,10 @@ font-weight: bold;
 
 
 
-  .FirstGridContainer {
-    /* height: 210px; */
+  /* .FirstGridContainer {
+   
     background-color: white;
-  }
+  } */
 
 
 
@@ -1309,7 +1337,12 @@ font-weight: bold;
     /* column-gap: auto; */
   }
   
-
+  .secondgrid-solidstar {
+    position: relative;
+    /* margin-left:1%; */
+    /* margin-top: 5%; */
+    /* margin-left: 20%; */
+  }
 
 
   .SecondFlexFirstSet,
