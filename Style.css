@@ -71,6 +71,13 @@ nav ul li a {
 
 /* Top heading style that is Find a place for your dream vacation */
 
+
+.info-icon-and-morethan-text-together{
+  display: flex;
+  /* font-size: 25px; */
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
 .content-1 {
   font-size: 25px;
   color: black;
@@ -372,7 +379,8 @@ font-weight: bold;
   padding-left: 20px;
   display: flex;
   margin-left: 3%;
-  padding-top: 30px;
+  padding-top: 10px;
+  gap:10px
 }
 
 /* i.info-icon{
@@ -385,8 +393,11 @@ font-weight: bold;
   font-size: large;
   font-weight: 400;
   margin-left: 10px;
-
+  width: 450px;
+  margin-bottom: 10px;
+  display: flex;
 }
+
 
 .firstgridtoptext {
   /* position: absolute; */
@@ -395,9 +406,6 @@ font-weight: bold;
   font-weight: 700;
   padding-bottom: 2%;
   padding-left: 5%;
-
-
-  
 }
 
 .firstgridtoptext2 {
@@ -515,7 +523,7 @@ font-weight: bold;
 .Secondgridtoptext {
   font-size: 25px;
   /* display: inline-block; */
-  /* padding-top: 8%; */
+  /* padding-top: -30%; */
   /* padding-left: 10px; */
   /* font-weight: 700; */
   /* padding-right: 10px; */
@@ -524,28 +532,32 @@ font-weight: bold;
   /* margin-left: 10px; */
   width: 500px;
   /* margin-bottom: 0px; */
-  height: 30px;
+  /* height: 30px; */
   /* margin-bottom: 0%; */
+  /* margin-bottom: 5%; */
 }
 
 .secondgrid-toptext-and-star {
-
   display: flex;
   /* column-gap: 5px; */
   /* padding-right: 40px; */
   margin-right: 20px;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 10%;
   /* margin-right: 10%; */
   flex-direction: row;
   /* margin-bottom: 1%; */
+  width:320px
 }
 
+.secondgrid-solidstar {
+  position: relative;
+  margin-left: 10%;
+  margin-top: 8%;
+}
 /* .fa-fw{
   padding-left: 275px;
 } */
-
-
 
 .fa-solid {
   /* color: rgba(30, 56, 227, 0.821); */
@@ -574,11 +586,9 @@ font-weight: bold;
 
 
 .SecondFlexRowOne {
-
   display: flex;
   flex-direction: column;
   gap: 30px;
-
 }
 
 
@@ -735,11 +745,17 @@ font-weight: bold;
   background-color: rgb(255, 255, 255);
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   border-color: rgb(239, 244, 235);
   border-style: solid;
   font-weight: 700;
-
+  /* width: 00px; */
+ 
+    /* font-size: 15px; */
+    width: 97.5%;
+    /* padding-left: 50px; */
+    margin-left: 15px;
+  
 
 }
 
@@ -899,9 +915,6 @@ font-weight: bold;
     /* margin-right: 30px; */
   /* }  */
 
-  .oldporttext {
-    width: 91%;
-  }
 
   .Logoandnavbar {
     display: flex;
@@ -1004,8 +1017,10 @@ font-weight: bold;
   }
 
   .oldporttext {
-    font-size: 20px;
-    /* width: 388px; */
+    font-size: 15px;
+    width: 340px;
+    /* padding-left: 50px; */
+    margin-left: 15px;
   }
 
   .bottomimage-1,
