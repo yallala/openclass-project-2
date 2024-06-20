@@ -750,12 +750,14 @@ font-weight: bold;
   border-color: rgb(239, 244, 235);
   border-style: solid;
   font-weight: 700;
+  font-size: 18px;
   /* width: 00px; */
  
     /* font-size: 15px; */
     width: 91%;
     padding-left: 10px;
     margin-left: 12px;
+    color: black;
   
 
 }
