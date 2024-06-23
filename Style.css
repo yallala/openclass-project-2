@@ -299,9 +299,10 @@ font-weight: bold;
   color: black;
   /* font-weight: 600; */
   font-weight: 500;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   font-size: large;
   font-weight: 700;
+  
 }
 
 /* there are 4 filter sections and organized their secitons into one div so some style applied  */
