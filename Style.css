@@ -195,11 +195,70 @@ button {
   margin-right: 20px;
 }
 
-.filter-area-2 {
-  /* margin-left: 20px; */
+/* .filter-area-2 {
   display: flex;
   gap: 20px;
+} */
+
+.Hrefclass-1 {
+  order: 1;
+  /* margin-left: 30px; */
+  /* margin-right: 20px; */
+
 }
+
+/* .Hrefclass-2 {
+  order: 3;
+ 
+  margin-left: 30px;
+}
+
+.Hrefclass-3 {
+  order: 2;
+ 
+}
+
+.Hrefclass-4 {
+  order: 4;
+  margin-left: 30px;
+
+} */
+
+
+/* .cash-filter{
+order:1;
+}
+
+.heart-filter{
+order:3;
+}
+
+.child-filter{
+order:2;
+}
+
+.pet-filter{
+order:4;
+} */
+/* .Hrefclass-1 {
+  order: 1;
+ 
+
+}
+
+.Hrefclass-2 {
+  order: 3;
+ 
+}
+
+.Hrefclass-3 {
+  order: 2;
+}
+
+.Hrefclass-4 {
+  order: 4;
+
+} */
 
 
 .info-icon-frame {
@@ -1225,7 +1284,7 @@ font-weight: bold;
   .filter-area-1 {
     display: flex;
     gap: 10px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     flex-direction: row;
   }
 
@@ -1479,30 +1538,51 @@ font-weight: bold;
   }
 
 
-  .Hrefclass-1 {
+  /* .Hrefclass-1 {
     order: 1;
-    /* margin-left: 30px; */
-    /* margin-right: 20px; */
+    
 
   }
 
   .Hrefclass-2 {
     order: 3;
-    /* padding-right: 10px; */
-    /* margin-right: 90px; */
+   
     margin-left: 30px;
   }
 
   .Hrefclass-3 {
     order: 2;
-    /* margin-right: 0px; */
+    
   }
 
   .Hrefclass-4 {
     order: 4;
     margin-left: 30px;
 
-  }
+  } */
+
+.cash-filter{
+order:1;
+}
+
+.heart-filter{
+order:2;
+
+}
+
+.child-filter{
+order:3;
+}
+
+.pet-filter{
+order:4;
+}
+
+.heart-filter {
+  width: 100%;
+  display: block;
+  clear: both;
+} 
 
   .overallfiltersarea {
     display: flex;
