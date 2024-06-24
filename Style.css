@@ -72,12 +72,13 @@ nav ul li a {
 /* Top heading style that is Find a place for your dream vacation */
 
 
-.info-icon-and-morethan-text-together{
+.info-icon-and-morethan-text-together {
   display: flex;
   /* font-size: 25px; */
   padding-top: 30px;
   padding-bottom: 20px;
 }
+
 .content-1 {
   font-size: 25px;
   color: black;
@@ -361,7 +362,7 @@ font-weight: bold;
   /* margin-left: 10px; */
   font-size: large;
   font-weight: 700;
-  
+
 }
 
 /* there are 4 filter sections and organized their secitons into one div so some style applied  */
@@ -441,7 +442,7 @@ font-weight: bold;
   display: flex;
   margin-left: 3%;
   padding-top: 10px;
-  gap:10px
+  gap: 10px
 }
 
 /* i.info-icon{
@@ -608,7 +609,7 @@ font-weight: bold;
   /* margin-right: 10%; */
   flex-direction: row;
   /* margin-bottom: 1%; */
-  width:320px
+  width: 320px
 }
 
 .secondgrid-solidstar {
@@ -616,6 +617,7 @@ font-weight: bold;
   margin-left: 10%;
   margin-top: 8%;
 }
+
 /* .fa-fw{
   padding-left: 275px;
 } */
@@ -743,8 +745,8 @@ font-weight: bold;
   margin: auto;
   /* margin-left: 10%; */
   padding-bottom: 2%;
-  gap:10px;
-  
+  gap: 10px;
+
 }
 
 
@@ -815,13 +817,13 @@ font-weight: bold;
   font-weight: 700;
   font-size: 18px;
   /* width: 00px; */
- 
-    /* font-size: 15px; */
-    width: 91%;
-    padding-left: 10px;
-    margin-left: 12px;
-    color: black;
-  
+
+  /* font-size: 15px; */
+  width: 91%;
+  padding-left: 10px;
+  margin-left: 12px;
+  color: black;
+
 
 }
 
@@ -1153,7 +1155,7 @@ font-weight: bold;
 
     text-align: left;
     padding-top: 9%;
-    padding-left: 8%%;
+    padding-left: 8%;
   }
 
 
@@ -1561,28 +1563,28 @@ font-weight: bold;
 
   } */
 
-.cash-filter{
-order:1;
-}
+  .cash-filter {
+    order: 1;
+  }
 
-.heart-filter{
-order:2;
+  .heart-filter {
+    order: 2;
 
-}
+  }
 
-.child-filter{
-order:3;
-}
+  .child-filter {
+    order: 3;
+  }
 
-.pet-filter{
-order:4;
-}
+  .pet-filter {
+    order: 4;
+  }
 
-.heart-filter {
-  width: 100%;
-  display: block;
-  clear: both;
-} 
+  .heart-filter {
+    width: 100%;
+    display: block;
+    clear: both;
+  }
 
   .overallfiltersarea {
     display: flex;
@@ -1590,9 +1592,9 @@ order:4;
     flex-wrap: wrap;
   }
 
-  .info-icon-and-morethan-text-together{
-  display: flex;
-  padding: 20px;
-} 
+  .info-icon-and-morethan-text-together {
+    display: flex;
+    padding: 20px;
+  }
 
 }
