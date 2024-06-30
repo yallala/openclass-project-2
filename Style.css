@@ -28,6 +28,7 @@ nav {
 nav ul {
   list-style-type: none;
   /* margin-right: 4%; */
+  /* margin-left: 0px; */
 }
 
 nav ul li {
@@ -57,8 +58,9 @@ nav ul li a {
   text-decoration: none;
   color: black;
   font-weight: 400;
-  margin: 25px;
-  display: inline-block;
+  margin: 40px;
+  /* display: flex; */
+  
 }
 
 /* Top heading style that is Find a place for your dream vacation */
@@ -260,8 +262,8 @@ input[type=search] {
 /* place holder text style for top search bar placeholder text */
 .search-input-1::placeholder {
   color: black;
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 
@@ -396,7 +398,10 @@ input[type=search] {
   border-radius: 20px;
 }
 
+/* .firstgrid-cardstextarea{
 
+
+} */
 
 .FirstFlexFirstImageSet,
 .FirstFlexSecondImageSet,
@@ -409,9 +414,10 @@ input[type=search] {
   border-color: rgb(244, 232, 232);
   border-width: 1px;
   border-radius: 20px;
-  padding: 5px;
-  width: 250px;
-  height: 210px;
+  padding: 10px;
+  /* width: 250px; */
+  /* height: 230px; */
+  /* gap:-10px; */
 }
 
 .FirstGridImage-1,
@@ -638,25 +644,30 @@ input[type=search] {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   height: 410px;
-  object-fit: cover;
+  /* object-fit: cover; */
   margin-left: 4%;
+  /* margin-top: 0%; */
+  margin-bottom: -5%;
 }
 
 
+.bottomimage-1 {
+  height: 415px;
+}
 .bottomimage-2 {
-  height: 250px;
+  height: 215px;
 }
 
 .bottomimage-3 {
-  height: 100px;
+  height: 115px;
 }
 
 .bottomimage-5 {
-  height: 175px;
+  height: 165px;
 }
 
 .bottomimage-6 {
-  height: 175px;
+  height: 165px;
 }
 
 .oldporttext {
@@ -667,11 +678,12 @@ input[type=search] {
   border-bottom-left-radius: 20px;
   border-color: rgb(239, 244, 235);
   border-style: solid;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 18px;
-  width: 91%;
-  padding-left: 10px;
-  margin-left: 12px;
+  width: 89.5%;
+  height: 40px;
+  padding-left: 15px;
+  margin-left: 13px;
   color: black;
 
 
@@ -741,6 +753,7 @@ input[type=search] {
 @media screen and (max-width: 992px) {
   .footer__nav>* {
     flex: 1;
+    /* ::-webkit-scrollbar { display: none; } */
   }
 
   .footer__addr {
@@ -755,6 +768,7 @@ input[type=search] {
 
   .nav__ul a {
     color: #010101;
+    padding-left: 18px;
   }
 
 }
@@ -764,6 +778,7 @@ input[type=search] {
     color: #0b0a0a;
     font-size: larger;
     font-weight: 400;
+
   }
 
 
@@ -903,7 +918,7 @@ input[type=search] {
     /* margin: 0; */
     /* padding-top: 10px; */
     /* padding-left: none; */
-    margin-left: -20px;
+    margin-left: -45px;
     /* width:100%; */
 
 
@@ -918,12 +933,33 @@ input[type=search] {
 
 
 
-  .oldporttext {
-    font-size: 18px;
+  /* .oldporttext {
+    /* font-size: 18px;
     width: 324px;
     margin-left: 15px;
     color: black;
-    margin-top: 0%;
+    margin-top: 0%; */
+
+  
+  /* }  */
+
+  .oldporttext {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgb(239, 244, 235);
+    border-style: solid;
+    font-weight: 600;
+    font-size: 18px;
+    width: 90%;
+    height: 40px;
+    padding-left: 15px;
+    margin-left: 13px;
+    color: black;
+  
+  
   }
 
   .bottomimage-1,
@@ -981,10 +1017,12 @@ input[type=search] {
 
   .firstgridtoptext2 {
 
-    text-align: left;
-    padding-top: 9%;
-    padding-left: 8%;
+    padding-top: 10%;
+    font-size: 18px;
     color: black;
+    font-weight: 600;
+    padding-left: 8%;
+    padding-bottom: 5%;
   }
 
 
@@ -1245,11 +1283,16 @@ margin-bottom: 1px; */
 
 
   .SecondGridStars {
-    padding: 2px;
+    margin-left: -7px;
+    /* padding-right: 10px; */
+    /* margin-right: -10px; */
   }
 
+
+
+
   .content-1 {
-    padding-top: 10%;
+    /* padding-top: 10%; */
     font-size: 22px;
     color: black;
     font-weight: 600;
@@ -1271,10 +1314,12 @@ margin-bottom: 1px; */
 
   .firstgridtoptext {
 
-    font-size: 20px;
-    padding-left: 10%;
-    padding-top: 9%;
+    padding-top: 10%;
+    font-size: 22px;
+    color: black;
     font-weight: 600;
+    padding-left: 8%;
+    padding-bottom: 5%;
   }
 
   .Secondgridtoptext {
@@ -1322,14 +1367,15 @@ margin-bottom: 1px; */
     padding: 20px;
   }
 
+  .FirstimageTextSet{
+    margin-left: 10px;
+  }
+ 
+
   .SecondimageTextSet{
     margin-left: 20px;
   }
 
-  .FirstimageTextSet{
-    margin-left: 20px;
-  }
- 
   .ThirdimageTextSet{
     margin-left: 20px;
   }
@@ -1346,6 +1392,13 @@ margin-bottom: 1px; */
     border-width: 2px;
     border-style: solid;
   
+  }
+
+  .stars-class {
+    /* padding-left: 3%; */
+    /* padding-right: -5%; */
+
+    margin-left: -7px;
   }
 
 }
