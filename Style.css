@@ -25,6 +25,13 @@ nav {
   padding-bottom: 20px;
 }
 
+.logo-and-navigation-bar-together-area {
+  /* display: flex;
+  flex-direction: column; */
+  padding-top: 20px;
+}
+
+
 nav ul {
   list-style-type: none;
   /* margin-right: 4%; */
@@ -40,7 +47,7 @@ nav ul li :hover {
   /* row-gap: 30px; */
   border-width: 3px;
   color: #0065FC;
-  padding-top: 12px;
+  padding-top: 33px;
   /* text-decoration: none; */
 }
 
@@ -88,7 +95,7 @@ nav ul li a {
 
 }
 
-.entire-filter-section {
+.filter-area-main-navigation {
   display: flex;
 }
 
@@ -155,7 +162,7 @@ button {
 
 /* 4 different filters organized into a form so added some style */
 
-.FilterTitle {
+.filter-area-heading-text {
   font-size: large;
   padding-top: 30px;
   font-weight: bold;
@@ -163,7 +170,7 @@ button {
 }
 
 
-.filter-area-1 {
+.filter-area-sub-hierarchy {
   display: flex;
   gap: 40px;
   margin-left: 30px;
@@ -171,7 +178,7 @@ button {
 }
 
 
-.Hrefclass-1 {
+.blank-hyperlink-item-1 {
   order: 1;
 }
 
@@ -194,7 +201,7 @@ i.info-icon {
 
 }
 
-.Form-1 {
+.filter-area-top-hierarchy {
   padding-top: 15px;
   flex-wrap: wrap;
   display: flex;
@@ -261,7 +268,7 @@ input[type=search] {
 
 /* place holder text style for bottom search bar placeholder text*/
 
-.search-input2 {
+.filter-area-same-class-name-all-4-filter-text-boxes {
   color: black;
   font-weight: 500;
   font-size: large;
@@ -353,7 +360,7 @@ input[type=search] {
 }
 
 
-.firstgridtoptext {
+.heading-accommodations-in-marseille {
   font-size: 28px;
   padding-top: 32px;
   font-weight: 700;
@@ -385,7 +392,7 @@ input[type=search] {
   padding-left: 5%;
 }
 
-.FirstGridContainer {
+.first-grid-Container {
   background-color: #F2F2F2;
   border-radius: 20px;
 }
@@ -427,30 +434,30 @@ input[type=search] {
 
 
 /* first grid href's design  */
-.Hrefclass-1,
-.Hrefclass-2,
-.Hrefclass-3,
-.Hrefclass-4 {
+.blank-hyperlink-item-1,
+.blank-hyperlink-item-2,
+.blank-hyperlink-item-3,
+.blank-hyperlink-item-4 {
   color: black;
 
 }
 
-.Hrefclass-1:hover {
+.blank-hyperlink-item-1:hover {
   text-decoration: none;
   color: black;
 }
 
-.Hrefclass-2:hover {
+.blank-hyperlink-item-2:hover {
   text-decoration: none;
   color: black;
 }
 
-.Hrefclass-3:hover {
+.blank-hyperlink-item-3:hover {
   text-decoration: none;
   color: black;
 }
 
-.Hrefclass-4:hover {
+.blank-hyperlink-item-4:hover {
   text-decoration: none;
   color: black;
 }
@@ -559,7 +566,7 @@ input[type=search] {
   font-size: 80%;
 }
 
-.FirstGrid-heading1 {
+.heading1-accommodation-cards {
   font-weight: 600;
   font-size: large;
   padding-left: 3%;
@@ -567,7 +574,7 @@ input[type=search] {
   color: black
 }
 
-.FirstGrid-heading2 {
+.heading2-accommodation-cards {
   font-weight: 300;
   font-size: medium;
   padding-left: 3%;
@@ -578,12 +585,12 @@ input[type=search] {
   padding: 5px;
 }
 
-.stars-class {
+.accommodation-cards-starts-division {
   padding-left: 3%;
 }
 
 /* firstandsecond together code */
-.firstandsecondtogether {
+.first-and-second-grid-together-division {
   display: flex;
   /* padding-top: 1%; */
   padding-left: 3%;
@@ -799,7 +806,7 @@ input[type=search] {
 
   }
 
-  .FirstGridContainer {
+  .first-grid-Container {
     flex-direction: column;
     height: max-content;
     padding-bottom: 20px;
@@ -813,7 +820,7 @@ input[type=search] {
     margin-left: 2px;
   }
 
-  .firstandsecondtogether {
+  .first-and-second-grid-together-division {
     flex-direction: column-reverse;
     height: max-content;
     padding-bottom: 20px;
@@ -829,6 +836,10 @@ input[type=search] {
   .logo {
     max-width: 100%;
     margin: auto;
+    /* padding-top: 10px;
+    height: 55px;
+    margin-left: 3%; */
+    margin-bottom: -30px;
   }
 
   nav {
@@ -944,7 +955,7 @@ input[type=search] {
 
 
 
-  .search-input2 {
+  .filter-area-same-class-name-all-4-filter-text-boxes {
     color: black;
     font-size: small;
     font-weight: bold;
@@ -1020,13 +1031,13 @@ input[type=search] {
     padding-bottom: 3%;
   }
 
-  .FirstGrid-heading2 {
+  .heading2-accommodation-cards {
     /* font-weight: 300; */
     font-size: medium;
     padding-left: 3%;
     color: black;
   }
-  
+
 
 
 
@@ -1073,7 +1084,7 @@ input[type=search] {
     margin-right: 15px;
   }
 
-  .FilterTitle {
+  .filter-area-heading-text {
     margin-bottom: 15px;
     font-size: large;
     padding-top: 10px;
@@ -1082,7 +1093,7 @@ input[type=search] {
   }
 
 
-  .filter-area-1 {
+  .filter-area-sub-hierarchy {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -1206,7 +1217,7 @@ input[type=search] {
     display: flex;
     margin-top: 10%;
     margin-left: 7%;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 
 
@@ -1285,7 +1296,7 @@ input[type=search] {
     padding-left: 5%;
   }
 
-  .firstgridtoptext {
+  .heading-accommodations-in-marseille {
 
     padding-top: 10%;
     font-size: 22px;
@@ -1304,29 +1315,29 @@ input[type=search] {
 
   }
 
-  .cash-filter {
+  .filter-area-filter-search-box-1-cash-filter {
     order: 1;
   }
 
-  .heart-filter {
+  .filter-area-filter-search-box-3-heart-filter {
     order: 2;
   }
 
-  .child-filter {
+  .filter-area-filter-search-box-2-child-filter {
     order: 3;
   }
 
-  .pet-filter {
+  .filter-area-filter-search-box-4-pet-filter {
     order: 4;
   }
 
-  .heart-filter {
+  .filter-area-filter-search-box-3-heart-filter {
     /* width: 100%; */
     display: block;
     clear: both;
   }
 
-  .entire-filter-section {
+  .filter-area-main-navigation {
     display: flex;
     gap: 1%;
     flex-wrap: wrap;
@@ -1354,7 +1365,7 @@ input[type=search] {
   input[type=text] {
     font-size: 20px;
     height: 55px;
-    width: 200px;
+    width: 210px;
     border-radius: 3px;
     border-color: #F2F2F2;
     border-width: 2px;
@@ -1362,7 +1373,7 @@ input[type=search] {
 
   }
 
-  .stars-class {
+  .accommodation-cards-starts-division {
     margin-left: -7px;
   }
 
