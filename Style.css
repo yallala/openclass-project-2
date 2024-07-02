@@ -62,7 +62,7 @@ nav ul li a {
   padding-bottom: 20px;
 }
 
-.content-1 {
+.h1-find-a-place-for-your-dream-vacation-text {
   font-size: 25px;
   color: black;
   font-weight: 600;
@@ -88,14 +88,14 @@ nav ul li a {
 
 }
 
-.overallfiltersarea {
+.entire-filter-section {
   display: flex;
 }
 
 /* Search icon before search box organized with different style */
 /* i = tag. To be more specific */
 
-i.map-dot {
+i.search-area-map-dot-icon {
   color: black;
 }
 
@@ -134,7 +134,7 @@ button {
 }
 
 /* hide search icon in regular view */
-.fas {
+.search-area-magnify-glass-icon {
   display: none;
 }
 
@@ -219,7 +219,7 @@ input[type=text] {
 
 }
 
-.FullviewSearchIcon {
+.search-area-search-button {
   /* display: none; */
   height: 60px;
   width: 130px;
@@ -252,7 +252,7 @@ input[type=search] {
 
 
 /* place holder text style for top search bar placeholder text */
-.search-input-1::placeholder {
+.input-box-with-text-marseille-france::placeholder {
   color: black;
   font-weight: 700;
   font-size: 18px;
@@ -844,19 +844,18 @@ input[type=search] {
     display: flex;
     height: 100%;
     border-top: none;
-
   }
 
-  .AccomLink {
+  .nav-1-item-accomodation {
     font-size: large;
   }
 
 
-  .ActiLink {
+  .nav-2-item-Activities {
     font-size: large;
   }
 
-  .AccomLink:hover {
+  .nav-1-item-accomodation:hover {
     color: #0065FC;
     border-top: none;
     text-decoration: none;
@@ -865,7 +864,7 @@ input[type=search] {
 
   }
 
-  .ActiLink:hover {
+  .nav-2-item-Activities:hover {
     color: #0065FC;
     border-top: none;
     text-decoration: none;
@@ -1042,20 +1041,16 @@ input[type=search] {
   }
 
 
-
-
-
-
   .mobile-button i {
     color: #ffffff;
     font-size: 18px;
   }
 
-  .FullviewSearchIcon {
+  .search-area-search-button {
     display: none;
   }
 
-  .fas {
+  .search-area-magnify-glass-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1098,12 +1093,12 @@ input[type=search] {
     margin-left: 0%;
   } */
 
-  .search-input-1 {
+  .input-box-with-text-marseille-france {
     width: 185px;
     height: 45px;
   }
 
-  i.map-dot {
+  i.search-area-map-dot-icon {
     color: black;
     align-items: center;
     padding-left: 25px;
@@ -1229,16 +1224,14 @@ input[type=search] {
     display: flex;
     background-color: white;
     border-style: groove;
-    border-color: white;
+    border-color: F2F2F2;
     border-width: 1px;
     border-radius: 19px;
 
     width: 345px;
     /* height:5000px */
-    /* margin-left: 3%; */
+    margin-left: 6%;
     height: 135px;
-
-
   }
 
   .SecondFlexRowOneImage-1,
@@ -1264,7 +1257,7 @@ input[type=search] {
 
 
 
-  .content-1 {
+  .h1-find-a-place-for-your-dream-vacation-text {
     /* padding-top: 10%; */
     font-size: 22px;
     color: black;
@@ -1304,15 +1297,12 @@ input[type=search] {
 
   }
 
-
-
   .cash-filter {
     order: 1;
   }
 
   .heart-filter {
     order: 2;
-
   }
 
   .child-filter {
@@ -1329,7 +1319,7 @@ input[type=search] {
     clear: both;
   }
 
-  .overallfiltersarea {
+  .entire-filter-section {
     display: flex;
     gap: 1%;
     flex-wrap: wrap;
