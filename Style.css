@@ -33,8 +33,6 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-
-
 }
 
 nav ul li :hover {
@@ -43,6 +41,7 @@ nav ul li :hover {
   border-width: 3px;
   color: #0065FC;
   padding-top: 12px;
+  /* text-decoration: none; */
 }
 
 
@@ -52,7 +51,6 @@ nav ul li a {
   font-weight: 400;
   margin: 40px;
   /* display: flex; */
-  
 }
 
 /* Top heading style that is Find a place for your dream vacation */
@@ -69,6 +67,7 @@ nav ul li a {
   color: black;
   font-weight: 600;
   padding-left: 5%;
+  padding-top: 10px;
 }
 
 /* Sub heading style that is Downtown or in nature */
@@ -367,8 +366,7 @@ input[type=search] {
   padding-top: 30px;
   font-weight: 800;
   padding-left: 5%;
-  color:black
-
+  color: black
 }
 
 .ResultsHeading-3 {
@@ -500,7 +498,7 @@ input[type=search] {
   border-radius: 20px;
   margin-left: 15px;
   width: 420px;
-  width:auto;
+  width: auto;
   height: auto;
 }
 
@@ -524,8 +522,8 @@ input[type=search] {
   margin-left: 18px;
   margin-top: 20px;
   /* width: 350px; */
-  width:300px;
-  height:160px;
+  width: 300px;
+  height: 160px;
   /* margin-right: 20px; */
   /* margin-top: 2px; */
 }
@@ -542,7 +540,7 @@ input[type=search] {
   border-bottom-left-radius: 30px;
   width: 120px;
   height: auto;
-  padding:4%;
+  padding: 4%;
 }
 
 
@@ -566,7 +564,7 @@ input[type=search] {
   font-size: large;
   padding-left: 3%;
   margin: 0;
-  color:black
+  color: black
 }
 
 .FirstGrid-heading2 {
@@ -649,6 +647,7 @@ input[type=search] {
 .bottomimage-1 {
   height: 415px;
 }
+
 .bottomimage-2 {
   height: 215px;
 }
@@ -735,7 +734,7 @@ input[type=search] {
 }
 
 .nav__ul a {
-  color:black;
+  color: black;
 }
 
 .nav__ul--extra {
@@ -787,7 +786,6 @@ input[type=search] {
   .nav__title {
     color: #0b0a0a;
     font-size: 25px;
-    /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
     font-weight: 500;
     line-height: 2em;
     margin-left: 5%;
@@ -823,46 +821,22 @@ input[type=search] {
     margin: 0;
   }
 
-
-
-
-  .Logoandnavbar {
+  .logo-and-navigation-bar-together-area {
     display: flex;
     flex-direction: column;
-    /* margin-left: 0%; */
-    /* clear: both; */
-  /* max-height: 0;
-  transition: max-height 0.2s ease-out; */
-  margin: 0;
-  /* padding: 10px; */
-
   }
 
   .logo {
-
     max-width: 100%;
     margin: auto;
   }
 
-  .AccomLink {
-    font-size: large;
-    /* margin-right: 60px; */
-
-  }
-
-
-
-  .ActiLink {
-    font-size: large;
-    /* margin-left: 30px; */
-  }
-
-  nav{
+  nav {
     text-align: center;
     display: flex;
   }
 
-  
+
 
   nav ul li:hover {
     border-bottom: 4px solid #0065FC;
@@ -870,26 +844,33 @@ input[type=search] {
     display: flex;
     height: 100%;
     border-top: none;
-    
 
-    .AccomLink {
-      color: #0065FC;
-    }
+  }
 
-    .ActiLink {
-      color: #0065FC;
-    }
+  .AccomLink {
+    font-size: large;
+  }
+
+
+  .ActiLink {
+    font-size: large;
   }
 
   .AccomLink:hover {
     color: #0065FC;
-    border-bottom: 4px solid #505152;
+    border-top: none;
+    text-decoration: none;
+    padding-top: 0.5px;
+    display: flex;
+
   }
 
   .ActiLink:hover {
     color: #0065FC;
-    border-bottom: 4px solid #505152;
-
+    border-top: none;
+    text-decoration: none;
+    padding-top: 0.5px;
+    display: flex;
   }
 
 
@@ -898,18 +879,14 @@ input[type=search] {
 
   nav ul li {
     display: flex;
-    /* text-align: right; */
-    /* margin: 0; */
     font-size: xx-small;
-    /* margin-top: -20px; */
     border-bottom: 4px solid #DFE3E7;
     border-width: 3px;
-    /* padding-left: 10px; */
-    /* margin-left: -30px; */
+    border-top: none;
   }
 
   nav ul {
-    display:flex;
+    display: flex;
     /* width:2000px; */
     /* margin: 0; */
     /* padding-top: 10px; */
@@ -921,11 +898,11 @@ input[type=search] {
   }
 
 
-  nav ul li a {
+  /* nav ul li a {
     font-size: 25px;
     color: black;
     
-  }
+  } */
 
 
 
@@ -936,7 +913,7 @@ input[type=search] {
     color: black;
     margin-top: 0%; */
 
-  
+
   /* }  */
 
   .oldporttext {
@@ -1257,7 +1234,7 @@ input[type=search] {
     border-radius: 19px;
 
     width: 345px;
-/* height:5000px */
+    /* height:5000px */
     /* margin-left: 3%; */
     height: 135px;
 
@@ -1271,10 +1248,10 @@ input[type=search] {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     width: 155px;
-    height:110px;
+    height: 110px;
     padding-right: 10px;
     /* row-gap:-10px; */
-}
+  }
 
 
 
@@ -1360,20 +1337,19 @@ input[type=search] {
 
   .info-icon-and-morethan-text-together {
     display: flex;
-    /* padding: 10px; */
     padding-top: 25px;
   }
 
-  .FirstimageTextSet{
+  .FirstimageTextSet {
     margin-left: 10px;
   }
- 
 
-  .SecondimageTextSet{
+
+  .SecondimageTextSet {
     margin-left: 20px;
   }
 
-  .ThirdimageTextSet{
+  .ThirdimageTextSet {
     margin-left: 20px;
   }
 
@@ -1382,22 +1358,16 @@ input[type=search] {
     font-size: 20px;
     height: 55px;
     width: 200px;
-    /* padding: 20px; */
-    /* margin-top: 10px; */
     border-radius: 3px;
     border-color: #F2F2F2;
     border-width: 2px;
     border-style: solid;
-  
+
   }
 
   .stars-class {
-    /* padding-left: 3%; */
-    /* padding-right: -5%; */
-
     margin-left: -7px;
   }
-
 
 
 }
