@@ -1020,7 +1020,13 @@ input[type=search] {
     padding-bottom: 3%;
   }
 
-
+  .FirstGrid-heading2 {
+    /* font-weight: 300; */
+    font-size: medium;
+    padding-left: 3%;
+    color: black;
+  }
+  
 
 
 
@@ -1096,6 +1102,7 @@ input[type=search] {
   .input-box-with-text-marseille-france {
     width: 185px;
     height: 45px;
+    margin-right: -10px;
   }
 
   i.search-area-map-dot-icon {
@@ -1358,6 +1365,5 @@ input[type=search] {
   .stars-class {
     margin-left: -7px;
   }
-
 
 }
