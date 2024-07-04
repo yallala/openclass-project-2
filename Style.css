@@ -237,7 +237,7 @@ input[type=text] {
 
 .search-area-search-button {
   /* display: none; */
-  height: 60px;
+  height: 63px;
   width: 130px;
 }
 
@@ -1126,8 +1126,8 @@ align-self: center;
   .mobile-button i {
     color: #ffffff;
     font-size: 18px;
-    border-radius: 20px;
-    border-color: red;
+    border-radius: 30px;
+    /* border-color: red; */
   }
 
   .search-area-search-button {
@@ -1138,7 +1138,7 @@ align-self: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
+    width: 60px;
     height: 60px;
     background-color: #135ae7;
     border: none;
@@ -1148,7 +1148,7 @@ align-self: center;
     transition: background-color 0.3s;
     color: white;
     /* margin-left: -10px; */
-    padding-right: 4px;
+    /* padding-right: 3px; */
 
   }
 
