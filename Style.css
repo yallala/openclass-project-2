@@ -950,13 +950,16 @@ input[type=search] {
     /* padding-left: none; */
     /* margin-left: -4%; */
     /* width:100%; */
-
+    /* align-items: center; */
+    margin-left: -50px;
+align-self: center;
 
   }
 
 
   nav ul li a {
     padding: 0%;
+    
 
   }
 
