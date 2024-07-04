@@ -1059,12 +1059,15 @@ input[type=search] {
 
 
 
-
+  .secondgrid-toptext-and-star {
+    display: flex;
+    margin-left: 3%;
+    padding-bottom: 40px;
+    width: 10%;
+  }
 
   .secondgrid-solidstar {
-    position: relative;
-    margin-left: 50%;
-    margin-top: 5%;
+    margin-left: 150px;
   }
 
   .heading1 {
@@ -1285,16 +1288,7 @@ input[type=search] {
     /* padding-top: -55%; */
   }
 
-  .secondgrid-toptext-and-star {
-
-    display: flex;
-    margin-top: 8%;
-    margin-left: 7%;
-    /* margin-bottom: 20px; */
-    padding-bottom: 30px;
-    width: 80%;
-
-  }
+ 
 
 
 
