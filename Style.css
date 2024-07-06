@@ -109,7 +109,7 @@ i.search-area-map-dot-icon {
 
 .fa-location-dot {
   padding-top: 30px;
-  padding-left: 25px;
+  padding-left: 20px;
   padding-bottom: 30px;
   background-color: #F2F2F2;
   border-top-left-radius: 15px;
@@ -119,12 +119,9 @@ i.search-area-map-dot-icon {
   /* padding-right: -50px; */
 }
 
-
-
-/* searh button is designed  */
-button {
-  width: 110px;
-  height: 60px;
+.search-area-search-button {
+  width: 100px;
+  height: 63px;
   background-color: #0065FC;
   border: none;
   color: white;
@@ -134,11 +131,15 @@ button {
   border-left: none;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
   border: 0.5px solid #9fc5f3;
   font-size: large;
   font-weight: bold;
-
+  /* padding-right: 15px; */
 }
+
+
 
 /* hide search icon in regular view */
 .search-area-magnify-glass-icon {
@@ -228,18 +229,13 @@ input[type=text] {
   width: 250px;
   /* padding: 20px; */
   /* margin-top: 10px; */
-  border-radius: 3px;
+  border-radius: px;
   border-color: #F2F2F2;
-  border-width: 2px;
+  border-width: 3px;
   border-style: solid;
-
+  margin: -10px;
 }
 
-.search-area-search-button {
-  /* display: none; */
-  height: 63px;
-  width: 130px;
-}
 
 
 /* Added style when move hover for both search and text boxes */
@@ -634,7 +630,7 @@ input[type=search] {
 
 
 /* firstandsecond together code */
-.first-and-second-grid-together-division {
+.accommodations-and-mostpopular-grids-together-area {
   display: flex;
   /* padding-top: 1%; */
   padding-left: 3%;
@@ -866,7 +862,7 @@ input[type=search] {
     margin-left: 2px;
   }
 
-  .first-and-second-grid-together-division {
+  .accommodations-and-mostpopular-grids-together-area {
     flex-direction: column-reverse;
     height: max-content;
     padding-bottom: 20px;
