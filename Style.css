@@ -379,7 +379,7 @@ input[type=search] {
   padding-left: 5%;
 }
 
-.firstgridtoptext2 {
+.text-show-more {
   font-size: large;
   padding-top: 30px;
   font-weight: 800;
@@ -405,7 +405,7 @@ input[type=search] {
   padding-left: 5%;
 }
 
-.first-grid-Container {
+.accommodations-in-marseille-flex {
   background-color: #F2F2F2;
   border-radius: 20px;
   margin-left: 7px;
@@ -417,12 +417,12 @@ input[type=search] {
 
 } */
 
-.FirstFlexFirstImageSet,
-.FirstFlexSecondImageSet,
-.FirstFlexThirdImageSet,
-.FirstFlexFourthImageSet,
-.FirstFlexFifthImageSet,
-.FirstFlexSixthImageSet {
+.accommodations-in-marseille-flex-first-image-set,
+.accommodations-in-marseille-flex-second-row-fourth-image-set,
+.accommodations-in-marseille-flex-second-image-set,
+.accommodations-in-marseille-flex-second-row-fifth-image-set,
+.accommodations-in-marseille-flex-third-image-set,
+.accommodations-in-marseille-flex-second-row-sixth-image-set {
   background-color: white;
   border-style: groove;
   border-color: rgb(244, 232, 232);
@@ -434,12 +434,12 @@ input[type=search] {
   /* gap:-10px; */
 }
 
-.FirstGridImage-1,
-.FirstGridImage-2,
-.FirstGridImage-3,
-.FirstGridImage-4,
-.FirstGridImage-5,
-.FirstGridImage-6 {
+.Accommodations-auberge-la-cannebiere-image,
+.Accommodations-hotel-de-la-mer-image,
+.Accommodations-Hotel-du-port-image,
+.Accommodations-auberge-le-panier-image,
+.Accommodations-les-mouettes-hotel-image,
+.Accommodations-hotel-chez-amina-image {
   width: 250px;
   height: 100px;
   border-top-left-radius: 20px;
@@ -555,9 +555,9 @@ input[type=search] {
 }
 
 
-.heading1 {
+.most-popular-all-section-first-row-text {
   /* padding-top: 8%; */
-  font-weight: 700;
+  font-weight: 600;
   padding-left: 25px;
   /* font-size: 80%; */
   /* padding-right: 20px; */
@@ -565,33 +565,26 @@ input[type=search] {
   width: auto;
 }
 
-.heading2 {
+.most-popular-all-section-second-row-text{
   display: flex;
   font-size: small;
-  /* width: 100%; */
   padding-top: 3%;
   padding-left: 25px;
-
-
-
 }
 
 
 .SecondGridStars {
-  /* padding: 5px; */
   padding-top: 3%;
-
   padding-left: 25px;
-
 }
 
 .SecondFlexFirstSet {
   margin-top: -5%;
 }
 
-.SecondFlexRowOneImage-1,
-.SecondFlexRowOneImage-2,
-.SecondFlexRowOneImage-3 {
+.most-popular-section-morning-sun-hotel-image,
+.most-popular-section-au-coeur-de-image,
+.most-popular-tout-bleu-image {
   display: flex;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -639,7 +632,7 @@ input[type=search] {
 
 
 
-.ThirdGridContainer {
+.activities-in-marseille-flex {
   display: flex;
   max-height: none;
   width: 95%;
@@ -846,17 +839,17 @@ input[type=search] {
 
   }
 
-  .first-grid-Container {
+  .accommodations-in-marseille-flex {
     flex-direction: column;
     height: max-content;
     padding-bottom: 20px;
     /* width: auto; */
     /* height: auto; */
     background: #FFFFFF;
-    width:auto
+    width: auto
   }
 
-  .ThirdGridContainer {
+  .activities-in-marseille-flex {
     flex-direction: column;
     height: max-content;
     margin-left: 2px;
@@ -948,14 +941,14 @@ input[type=search] {
     /* width:100%; */
     /* align-items: center; */
     margin-left: -50px;
-align-self: center;
+    align-self: center;
 
   }
 
 
   nav ul li a {
     padding: 0%;
-    
+
 
   }
 
@@ -1006,12 +999,12 @@ align-self: center;
     font-weight: bold;
   }
 
-  .FirstFlexFirstImageSet,
-  .FirstFlexSecondImageSet,
-  .FirstFlexThirdImageSet,
-  .FirstFlexFourthImageSet,
-  .FirstFlexFifthImageSet,
-  .FirstFlexSixthImageSet {
+  .accommodations-in-marseille-flex-first-image-set,
+  .accommodations-in-marseille-flex-second-row-fourth-image-set,
+  .accommodations-in-marseille-flex-second-image-set,
+  .accommodations-in-marseille-flex-second-row-fifth-image-set,
+  .accommodations-in-marseille-flex-third-image-set,
+  .accommodations-in-marseille-flex-second-row-sixth-image-set {
     background-color: white;
     border-style: groove;
     border-color: #ebe3e3;
@@ -1023,12 +1016,12 @@ align-self: center;
     outline: none;
   }
 
-  .FirstGridImage-1,
-  .FirstGridImage-2,
-  .FirstGridImage-3,
-  .FirstGridImage-4,
-  .FirstGridImage-5,
-  .FirstGridImage-6 {
+  .Accommodations-auberge-la-cannebiere-image,
+  .Accommodations-hotel-de-la-mer-image,
+  .Accommodations-Hotel-du-port-image,
+  .Accommodations-auberge-le-panier-image,
+  .Accommodations-les-mouettes-hotel-image,
+  .Accommodations-hotel-chez-amina-image {
     width: 305px;
     height: 110px;
     border-top-left-radius: 20px;
@@ -1044,7 +1037,7 @@ align-self: center;
     margin-left: -3%;
   }
 
-  .firstgridtoptext2 {
+  .text-show-more {
 
     padding-top: 10%;
     font-size: 18px;
@@ -1069,7 +1062,7 @@ align-self: center;
     margin-left: 150px;
   }
 
-  .heading1 {
+  .most-popular-all-section-first-row-text {
     display: flex;
     font-size: small;
     width: 100%;
@@ -1079,10 +1072,9 @@ align-self: center;
     /* padding-right: -8%; */
   }
 
-  .heading2 {
+  .most-popular-all-section-second-row-text{
     padding-top: 5%;
     padding-left: 20px;
-    /* padding-bottom: 3%; */
   }
 
   .SecondGridStars {
@@ -1090,6 +1082,7 @@ align-self: center;
     padding-left: 20px;
     width: 40x;
   }
+
   /* .fa-solid {
     padding-left: -7px;
   } */
@@ -1287,7 +1280,7 @@ align-self: center;
     /* padding-top: -55%; */
   }
 
- 
+
 
 
 
@@ -1326,9 +1319,9 @@ align-self: center;
     border-bottom-right-radius: 30px;
   }
 
-  .SecondFlexRowOneImage-1,
-  .SecondFlexRowOneImage-2,
-  .SecondFlexRowOneImage-3 {
+  .most-popular-section-morning-sun-hotel-image,
+  .most-popular-section-au-coeur-de-image,
+  .most-popular-tout-bleu-image {
     display: flex;
     border-top-left-radius: 22px;
     border-bottom-left-radius: 22px;
@@ -1418,20 +1411,20 @@ align-self: center;
     padding-top: 15px;
   }
 
-  .FirstimageTextSet {
+  .most-popular-first-set-text-set {
     margin-left: 1px;
     text-wrap: wrap;
     flex-wrap: wrap;
   }
 
 
-  .SecondimageTextSet {
+  .most-popular-second-set-text-set {
     margin-left: 1px;
     text-wrap: wrap;
     flex-wrap: wrap;
   }
 
-  .ThirdimageTextSet {
+  .most-popular-third-image-set-text-set {
     margin-left: 1px;
     text-wrap: wrap;
     flex-wrap: wrap;
