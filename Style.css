@@ -495,7 +495,8 @@ input[type=search] {
   margin-top: 9%;
   margin-left: 5%;
   flex-direction: row;
-  width: 350px
+  width: 350px;
+  margin-bottom: 9%;
 }
 
 .most-popular-flex-solid-star {
@@ -535,9 +536,9 @@ input[type=search] {
 } */
 
 
-.SecondFlexFirstSet,
-.SecondFlexSecondSet,
-.SecondFlexThirdSet {
+.most-popular-flex-first-set-including-image-and-text,
+.most-popular-flex-second-set-including-image-and-text,
+.most-popular-flex-third-set-including-image-and-text {
   display: flex;
   background-color: white;
   border-style: groove;
@@ -553,6 +554,7 @@ input[type=search] {
   width: 360px;
   height: 140px;
   /* gap: 10%; */
+  margin-top: 20px;
 }
 
 
@@ -579,7 +581,7 @@ input[type=search] {
   padding-left: 25px;
 }
 
-.SecondFlexFirstSet {
+.most-popular-flex-first-set-including-image-and-text {
   margin-top: -5%;
 }
 
@@ -646,10 +648,10 @@ input[type=search] {
 
 
 
-.ColumnOne,
-.ColumnTwo,
-.ColumnThree,
-.ColumnFour {
+.activities-in-marseille-flex-column-one,
+.activities-in-marseille-flex-column-two,
+.activities-in-marseille-flex-column-three,
+.activities-in-marseille-flex-column-four {
   padding-top: 2%;
   width: 100%;
   display: flex;
@@ -661,18 +663,18 @@ input[type=search] {
 
 
 
-.ColumnTwo,
-.ColumnFour {
+.activities-in-marseille-flex-column-two,
+.activities-in-marseille-flex-column-four {
   display: flex;
   flex-direction: column;
 }
 
-.bottomimage-1,
-.bottomimage-2,
-.bottomimage-3,
-.bottomimage-4,
-.bottomimage-5,
-.bottomimage-6 {
+.activities-in-marseille-oldport-image,
+.activities-in-marseille-pomegues-image,
+.activities-in-marseille-frioul-island-image,
+.activities-in-marseille-calanques-national-park-image,
+.activities-in-marseille-notre-dame-image,
+.activities-in-marseille-longchamp-park-image {
   display: flex;
   width: 95%;
   border-top-right-radius: 20px;
@@ -685,23 +687,23 @@ input[type=search] {
 }
 
 
-.bottomimage-1 {
+.activities-in-marseille-oldport-image {
   height: 415px;
 }
 
-.bottomimage-2 {
+.activities-in-marseille-pomegues-image {
   height: 215px;
 }
 
-.bottomimage-3 {
+.activities-in-marseille-frioul-island-image {
   height: 115px;
 }
 
-.bottomimage-5 {
+.activities-in-marseille-notre-dame-image {
   height: 165px;
 }
 
-.bottomimage-6 {
+.activities-in-marseille-longchamp-park-image {
   height: 165px;
 }
 
@@ -982,12 +984,12 @@ input[type=search] {
     color: black;
   }
 
-  .bottomimage-1,
-  .bottomimage-2,
-  .bottomimage-3,
-  .bottomimage-4,
-  .bottomimage-5,
-  .bottomimage-6 {
+  .activities-in-marseille-oldport-image,
+  .activities-in-marseille-pomegues-image,
+  .activities-in-marseille-frioul-island-image,
+  .activities-in-marseille-calanques-national-park-image,
+  .activities-in-marseille-notre-dame-image,
+  .activities-in-marseille-longchamp-park-image {
     height: 150px;
     object-fit: cover;
   }
@@ -1055,7 +1057,7 @@ input[type=search] {
   .most-popular-toptext-and-star-together {
     display: flex;
     margin-left: 3%;
-    padding-bottom: 40px;
+    padding-bottom: 28px;
     width: 10%;
   }
 
@@ -1291,7 +1293,7 @@ input[type=search] {
     gap: 3px;
     background-color: #F2F2F2;
     border-radius: 0px;
-    height: 620px;
+    height: 599px;
     /* width: 390px; */
     padding-left: 0%;
     margin-left: 2%;
@@ -1300,9 +1302,9 @@ input[type=search] {
 
 
 
-  .SecondFlexFirstSet,
-  .SecondFlexSecondSet,
-  .SecondFlexThirdSet {
+  .most-popular-flex-first-set-including-image-and-text,
+  .most-popular-flex-second-set-including-image-and-text,
+  .most-popular-flex-third-set-including-image-and-text {
     display: flex;
     background-color: white;
     border-style: groove;
