@@ -240,7 +240,8 @@ input[type=text] {
 
 /* Added style when move hover for both search and text boxes */
 input[type="text"]:hover {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  border-color: #F2F2F2;
 }
 
 
