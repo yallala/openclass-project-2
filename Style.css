@@ -114,13 +114,13 @@ i.search-area-map-dot-icon {
   background-color: #F2F2F2;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-  width: 40px;
+  width: 50px;
   /* height:1px; */
   /* padding-right: -50px; */
 }
 
 .search-area-search-button {
-  width: 100px;
+  width: 120px;
   height: 62px;
   background-color: #0065FC;
   border: none;
@@ -134,8 +134,8 @@ i.search-area-map-dot-icon {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   border: 0.5px solid #9fc5f3;
-  font-size: large;
-  font-weight: bold;
+  font-size: 22px;
+  font-weight: 600;
   /* padding-right: 15px; */
 }
 
@@ -226,7 +226,7 @@ i.info-icon {
 input[type=text] {
   font-size: 20px;
   height: 55px;
-  width: 250px;
+  width: 255px;
   /* padding: 20px; */
   /* margin-top: 10px; */
   border-radius: 1px;
@@ -268,7 +268,7 @@ input[type=search] {
 .input-box-with-text-marseille-france::placeholder {
   color: black;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   padding-left: 30px;
 }
 
@@ -1018,10 +1018,11 @@ input[type=search] {
   .accommodations-in-marseille-flex-second-row-sixth-image-set {
     background-color: white;
     border-style: groove;
-    border-color: #ebe3e3;
+    border-color: #c8c6c6ac;
     border-radius: 20px;
-    border-width: 1.3px;
-    padding: 10px;
+    border-width: 1px;
+    /* padding: 10px; */
+    /* margin-left: 1%; */
     width: 95%;
     height: 191px;
     outline: none;
@@ -1033,11 +1034,12 @@ input[type=search] {
   .Accommodations-auberge-le-panier-image,
   .Accommodations-les-mouettes-hotel-image,
   .Accommodations-hotel-chez-amina-image {
-    width: 305px;
-    height: 110px;
+    width: 328px;
+    height: 115px;
     border-top-left-radius: 11px;
     border-top-right-radius: 11px;
     object-fit: cover;
+    margin-left: 0.5%;
   }
 
   .accommodation-cards {
