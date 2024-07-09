@@ -589,8 +589,8 @@ input[type=search] {
 .most-popular-section-au-coeur-de-image,
 .most-popular-tout-bleu-image {
   display: flex;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
   width: 120px;
   /* height: auto; */
   height: 133px;
