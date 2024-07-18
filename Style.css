@@ -119,8 +119,10 @@ i.search-area-map-dot-icon {
   /* padding-right: -50px; */
 }
 
-.search-area-search-button {
-  width: 120px;
+
+
+.search-button-desktop {
+  width: 100px;
   height: 62px;
   background-color: #0065FC;
   border: none;
@@ -142,7 +144,11 @@ i.search-area-map-dot-icon {
 
 
 /* hide search icon in regular view */
-.search-area-magnify-glass-icon {
+/* .search-area-magnify-glass-.icon {
+  display: none;
+} */
+
+.search-button-below-desktop{
   display: none;
 }
 
@@ -237,7 +243,6 @@ input[type=text] {
 }
 
 
-
 /* Added style when move hover for both search and text boxes */
 input[type="text"]:hover {
   /* border: 1px solid black; */
@@ -272,9 +277,9 @@ input[type=search] {
   padding-left: 30px;
 }
 
-.fa-magnifying-glass {
+/* .fa-magnifying-glass {
   display: none;
-}
+} */
 
 
 /* place holder text style for bottom search bar placeholder text*/
@@ -403,7 +408,7 @@ input[type=search] {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding-left: 5%;
+  padding-left: 18px;
 }
 
 .accommodations-in-marseille-flex {
@@ -502,7 +507,8 @@ input[type=search] {
 .most-popular-flex-solid-star {
   /* position: relative; */
   /* margin-left: 15%; */
-  margin-top: 8%;
+  margin-top: 15px;
+  width: auto;
 }
 
 
@@ -526,6 +532,7 @@ input[type=search] {
   /* width: auto; */
   height: 650px;
   /* width:50%; */
+  padding: 20px;
 }
 
 
@@ -785,7 +792,10 @@ input[type=search] {
   column-gap: 1.25em;
 }
 
-
+@media screen and (max-width: 992px) {
+  
+  /* TODO Add selector for filter lable   */
+}
 
 @media screen and (max-width: 768px) {
   .footer__nav>* {
@@ -845,11 +855,14 @@ input[type=search] {
   .accommodations-in-marseille-flex {
     flex-direction: column;
     height: max-content;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     /* width: auto; */
     /* height: auto; */
     background: #FFFFFF;
-    width: auto
+    width: auto;
+    display: flex;
+    
+
   }
 
   .activities-in-marseille-flex {
@@ -1026,6 +1039,7 @@ input[type=search] {
     width: 95%;
     height: 191px;
     outline: none;
+    /* padding:px; */
   }
 
   .Accommodations-auberge-la-cannebiere-image,
@@ -1047,7 +1061,8 @@ input[type=search] {
     flex-wrap: wrap;
     gap: 10px;
     /* padding-top: -50px; */
-    margin-left: -3%;
+    /* margin-left: -3%; */
+    /* padding-right: 50px; */
   }
 
   .text-show-more {
@@ -1127,34 +1142,63 @@ input[type=search] {
   }
 
 
-  .mobile-button i {
+  /* .mobile-button i {
     color: #ffffff;
     font-size: 18px;
     border-radius: 30px;
     /* border-color: red; */
-  }
+  /* }  */
 
-  .search-area-search-button {
+  
+  .search-button-desktop {
     display: none;
   }
 
-  .fa-magnifying-glass {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    background-color: #135ae7;
-    border: none;
-    border-radius: 35%;
-    cursor: pointer;
-    outline: none;
-    transition: background-color 0.3s;
-    color: white;
-    /* margin-left: -10px; */
-    /* padding-right: 3px; */
 
-  }
+.search-button-below-desktop {
+  /* width: 140px;
+  height: 162px; */
+  background-color: #135ae7;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-left: none;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border: 0.5px solid #9fc5f3;
+  font-size: 25px;
+  font-weight: 600;
+  /* padding-right: 15px; */
+}
+
+.fa-magnifying-glass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 60px;
+  background-color: #135ae7;
+  border: none;
+  border-radius: 35%;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+  color: white;
+
+}
+
+
+/* .mobile-search-button{
+  background-color: white;
+  border: none;
+}   */
+
+ 
+
 
   .filter-area-heading-text {
     margin-bottom: 15px;
