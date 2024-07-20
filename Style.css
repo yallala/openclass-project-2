@@ -552,11 +552,10 @@ input[type=search] {
   border-color: white;
   border-width: 1px;
   /* border-radius: 19px; */
-  /* border-top-left-radius: 30px;
+  border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px; */
-  border-radius: 20px;
+  border-bottom-right-radius: 30px;
   margin-left: 18px;
   margin-top: 45px;
   width: 360px;
@@ -794,7 +793,98 @@ input[type=search] {
 }
 
 @media screen and (max-width: 992px) {
+  .filter-area-main-navigation {
+    padding-left: 4%;
+  }
+
+  .filter-area-heading-text {
+    padding-left: 0px;
+  }
+
+  .accommodations-and-mostpopular-grids-together-area {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .blank-hyperlink-item {
+    width: 90%;
+  }
+
   
+  .Accommodations-auberge-la-cannebiere-image,
+  .Accommodations-hotel-de-la-mer-image,
+  .Accommodations-Hotel-du-port-image,
+  .Accommodations-auberge-le-panier-image,
+  .Accommodations-les-mouettes-hotel-image,
+  .Accommodations-hotel-chez-amina-image {
+    width: 100%;
+  }
+
+  .accommodations-in-marseille-flex {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  
+  .accommodation-cards-starts-division {
+    margin-left: 3%;
+    /* margin-top: 1% !important; */
+    margin-bottom: 1% !important;
+  }
+
+  .accommodation-cards-heading1 {
+    margin-top: 1.5%;
+  }
+
+  .accommodation-cards-heading2 {
+    margin-top: 1%;
+    margin-bottom: 3.5%;
+  }
+
+  .most-popular-grid-container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .most-popular-flex-first-set-including-image-and-text,
+  .most-popular-flex-second-set-including-image-and-text,
+  .most-popular-flex-third-set-including-image-and-text {
+    width: 90%;
+    margin-top: 17px;
+    margin-left: 0px;
+  }
+
+  .most-popular-toptext-and-star-together {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-top: 0px;
+    /* padding-bottom: 28px; */
+    width: 90%;
+    margin-bottom: 4%;
+  }
+
+  .most-popular-section-morning-sun-hotel-image,
+  .most-popular-section-au-coeur-de-image,
+  .most-popular-tout-bleu-image {
+    width: 150px;
+    object-fit: cover;
+    padding-top: 1%;
+  }
+
+  .oldporttext {
+    margin: 0;
+  }
+
+  .blank-hyperlink-item-tablet {
+    margin-top: 12%;
+  }
+
+  .activities-in-marseille-oldport-image, .activities-in-marseille-pomegues-image, .activities-in-marseille-frioul-island-image, .activities-in-marseille-calanques-national-park-image, .activities-in-marseille-notre-dame-image, .activities-in-marseille-longchamp-park-image {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
   /* TODO Add selector for filter lable   */
 }
 
@@ -860,7 +950,9 @@ input[type=search] {
     /* width: auto; */
     /* height: auto; */
     background: #FFFFFF;
-    width: auto;
+    /* width: auto; */
+    width: 90%;
+    margin: auto;
     display: flex;
     
 
@@ -869,7 +961,9 @@ input[type=search] {
   .activities-in-marseille-flex {
     flex-direction: column;
     height: max-content;
-    margin-left: 2px;
+    /* margin-left: 2px; */
+    margin: auto;
+    width: 100%;
   }
 
   .accommodations-and-mostpopular-grids-together-area {
@@ -1001,8 +1095,9 @@ input[type=search] {
     font-size: 18px;
     /* width: 90%; */
     height: 40px;
-    padding-left: 15px;
-    margin-left: 13px;
+    /* padding-left: 15px; */
+    /* margin-left: 13px; */
+    width: 93%;
     color: black;
   }
 
@@ -1013,6 +1108,7 @@ input[type=search] {
   .activities-in-marseille-notre-dame-image,
   .activities-in-marseille-longchamp-park-image {
     height: 150px;
+    width: 100%;
     object-fit: cover;
   }
 
@@ -1037,9 +1133,10 @@ input[type=search] {
     border-width: 1px;
     /* padding: 10px; */
     /* margin-left: 1%; */
-    width: 95%;
-    height: 191px;
+    width: 100%;
+    height: 210px;
     outline: none;
+    padding: 0;
     /* padding:px; */
   }
 
@@ -1058,7 +1155,7 @@ input[type=search] {
     border-top-left-radius: 11px;
     border-top-right-radius: 11px;
     object-fit: cover;
-    margin-left: 0.5%;
+    /* margin-left: 0.5%; */
   }
 
   .accommodation-cards {
@@ -1132,9 +1229,6 @@ input[type=search] {
     padding-top: 7px;
     padding-bottom: 7px;
   }
-
-
-
 
 
 
@@ -1213,7 +1307,8 @@ input[type=search] {
     font-size: large;
     padding-top: 10px;
     font-weight: bold;
-    margin-left: -28px;
+    padding-left: 0;
+    /* margin-left: -28px; */
     /* margin-right: 220px; */
   }
 
@@ -1223,8 +1318,8 @@ input[type=search] {
     gap: 10px;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   /* .filter-area-2 {
@@ -1343,7 +1438,8 @@ input[type=search] {
     padding-left: 5px;
     display: flex;
     margin-left: 4%;
-    padding-right: 3%;
+    /* margin: auto; */
+    /* padding-right: 3%; */
     /* padding-top: -55%; */
   }
 
@@ -1357,11 +1453,12 @@ input[type=search] {
     gap: 8px;
     background-color: #F2F2F2;
     border-radius: 0px;
-    height: 620px;
+    height: 580px;
     /* width: 390px; */
-    padding-left: 0%;
-    margin-left: 2%;
-    width: 95%;
+    /* padding-left: 0%; */
+    padding: 0;
+    /* margin-left: 2%; */
+    width: 100%;
   }
 
 
@@ -1377,7 +1474,8 @@ input[type=search] {
     /* border-radius: 20px; */
     width: 95%;
     /* height:5000px */
-    margin-left: 1%;
+    /* margin-left: 1%; */
+    margin: auto;
     height: 135px;
     /* padding:0%; */
     border-top-left-radius: 30px;
@@ -1471,11 +1569,14 @@ input[type=search] {
     display: flex;
     gap: 1%;
     flex-wrap: wrap;
+    margin-left: 3%;
   }
 
   .info-icon-and-morethan-text-together {
     display: flex;
     padding-top: 15px;
+    margin: auto;
+    width: 90%;
   }
 
   .most-popular-first-set-text-set {
@@ -1510,9 +1611,8 @@ input[type=search] {
   }
 
   .accommodation-cards-starts-division {
-    padding-left: 1.7%;
+    /* padding-left: 1.7%; */
     margin-top: 0%;
-    
   }
 
   #form {
@@ -1531,7 +1631,7 @@ input[type=search] {
     flex-direction: row;
     align-items: center;
     /* width: 95%; */
-    margin-left: 3%;
+    /* margin-left: 0%; */
   }
 
   .blank-hyperlink-item {
@@ -1539,4 +1639,22 @@ input[type=search] {
     width: 100%;
   }
 
+  .activities {
+    width: 90%;
+    margin: auto;
+  }
+
+  .blank-hyperlink-item-tablet {
+    margin-top: 3%;
+  }
+
+
+  .blank-hyperlink-item-1 {
+    width: 95%;
+    margin: auto;
+  }
+
+  .most-popular-toptext-and-star-together {
+    margin: auto;
+  }
 }
